@@ -1,0 +1,22 @@
+= Innovation Happens Elsewhere:  Open Source as Business Strategy
+Ron Goldman <ihe@dreamsongs.com>; Richard P. Gabriel
+1.01-0.0001, October 2023: Basic setup
+:doctype: book
+:backend: docbook
+:url-repo: https://github.com/funnelfiasco/InnovationHappensElsewhere
+:TK: This section not yet updated.
+
+== About This Edition
+
+This book is a reproduction of https://dreamsongs.com/IHE/[_Innovation Happens Elsewhere: Open Source as Business Strategy_] by Ron Goldman and Richard P. Gabriel.
+The original was published in 2005 under the https://creativecommons.org/licenses/by-nc-sa/2.0/[Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic license] (CC BY-NC-SA 2.0), but only in a multi-page HTML format.
+Since this format is not particularly well-suited for me to load on my tablet and read on an airplane, I built into a format that allows easy production of PDF and ePUB files.
+
+Although the original book is, at the time of publication, almost two decades old, I am not updating the content.
+I have made formatting and style changes where necessary to appease the toolchain, or where it improves the readability.
+I may choose to take that on at a later date.
+More likely, I'll write about what I find relevant (and irrelevant) at https://duckalignment.academy[Duck Alignment Academy (https://duckalignment.academy)].
+
+If you notice a problem, issues reports and pull requests are welcome at {url-repo}.
+
+include::frontmatter.adoc[]

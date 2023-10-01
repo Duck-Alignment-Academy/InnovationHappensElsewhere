@@ -1,0 +1,159 @@
+[preface]
+== Front Matter
+
+=== Version History
+
+==== This edition's versions
+
+1.01-0.0001, October 2023: Basic setup
+
+==== Content versions
+
+Version 1.01: September, 2005, Converted book to html; Added a few sentences about the CDDL along with the text of the CDDL.
+
+Version 1.0: April, 2005, Innovation Happens Elsewhere book published by Morgan Kaufmann.
+
+=== Endorsements
+
+{TK}
+
+=== Publisher Credits
+
+* *Senior Editor:* Tim Cox
+* *Assistant Editor:* Richard Camp
+* *Publishing Services Manager:* Simon Crump
+* *Senior Production Editor:* Paul Gottehrer
+* *Cover Design Manager:* Cate Rickard Barr
+* *Cover Design:* Yvo Riezebos
+* *Copyeditor:* Julie Nemer
+* *Proofreader:* Pamela Andrada
+* *Indexer:* Steve Rath
+
+Morgan Kaufmann Publishers is an imprint of Elsevier.
+500 Sansome Street, Suite 400, San Francisco, CA 94111
+
+Designations used by companies to distinguish their products are often claimed as trademarks or registered trademarks.
+In all instances in which Morgan Kaufmann Publishers or the authors are aware of a claim, the product names appear in initial capital or all capital letters.
+Readers, however, should contact the appropriate companies for more complete information regarding trademarks and registration.
+
+Library of Congress Cataloging-in-Publication Data
+
+ISBN: 1-55860-889-3
+
+For information on all Morgan Kaufmann publications, visit their website at www.mkp.com or www.books.elsevier.com
+
+==== Portable Edition Credits
+
+This edition is made possible by contributions from:
+
+* https://duckalignment.academy[Ben Cotton]
+
+=== About the Authors
+
+*Ron Goldman* is a researcher at Sun Microsystems Laboratories in California working on alternative software development methodologies and new software architectures inspired by biology.
+He has been working with open source since hacking on GDB at Lucid, Inc. back in 1992.
+Since 1998 he has been helping groups at Sun Microsystems understand open source and advising them on how to build successful communities around their open-source projects.
+
+Prior to Sun he developed a program to generate and manipulate visual representations of complex data for use by social scientists as part of a collaboration between NYNEX Science & Technology and the Institute for Research on Learning.
+He has worked on programming language design, programming environments, user interface design, and data visualization.
+He has a Ph.D. in Computer Science from Stanford University where he was a member of the robotics group.
+
+*Richard P. Gabriel* received a Ph.D. in Computer Science from Stanford University in 1981, and an MFA in Poetry from Warren Wilson College in 1998.
+He has been a researcher at Stanford University, company president and Chief Technical Officer at Lucid, Inc., vice president of development at ParcPlace-Digitalk, a management consultant for several startups and Sun Microsystems, and Consulting Professor of Computer Science at Stanford University.
+
+He currently is a Distinguished Engineer and principal investigator of a small research group at Sun Laboratories, researching the architecture, design, and implementation of extraordinarily large, self-sustaining systems as well as development techniques for building them.
+He is one of Sun's open source experts, advising the company on community-based strategies.
+He is also President of the Hillside Group, a nonprofit that nurtures the software patterns community by holding conferences, publishing books, and awarding scholarships.
+
+He is an ACM Fellow, has been a finalist in several poetry manuscript contests, including the National Poetry Series book prize, and has won the Texas Instruments Excellence in Technical Communications Award, the Northeastern University Outstanding Alumni Award, the ACM SIGPLAN Distinguished Service Award, and the ACM/AAAI Allen Newell Award.
+
+From the press release for the 2004 Allen Newell award from the Association of Computing Machinery (ACM):
+
+[quote]
+A man of remarkable breadth and challenging intellect, Richard Gabriel has had a remarkable influence not only on fundamental issues in programming languages and software design but also on the interaction between computer science and other disciplines, notably architecture and poetry.
+Dr. Gabriel's background spans industry and academia, technology and humanities, introspection and application.
+He stretches the imagination of computer scientists with ideas and innovations from other fields and thus his role in shaping the growth and impact of object technology and its followers has been profound.
+
+=== Foreword
+
+[quote,William A. Sahlman, "Associate Professor, Harvard Business School, in an unpublished lecture"]
+The most important innovation of the Industrial Revolution wasn't the steam engine or the Bessemer furnace or any technological breakthrough, it was limited liability, because that mobilized the flow of capital.
+
+At first glance, this book appears to be about developing software more effectively.
+If you're not in the business of creating, acquiring, or depending on software--surely there is someone left in this category--why pay attention?
+
+Because today, the software community is pioneering the changes arising in our society from the transformation from industrial to informational economy.
+The case of open source software presents the richest example available of the changes underway in the structure of our economic institutions.
+
+These changes reflect the shift in the nature of capital and the meaning of ownership.
+When money replaced land as the main store of economic value, the corporation and the financial services industry developed.
+Open source points the way to the innovations arising from the shift from financial to knowledge-based capital.
+
+The industrial economy required access to unprecedented amounts of financial capital.
+In the 18th century the financial system was called upon to support commerce on the scale of a ship full of cargo; by the middle of the 19th century, Carnegie was building steel mills, Rockefeller refineries, and Gould railroads. John D. Rockefeller wrote that the financial engineering of Trusts--the forerunner of the limited liability corporation--was as great an achievement as the technology to extract and refine petroleum.
+
+Limited liability was vital because this new scale of financial risk had become too great for entrepreneurs to bear.
+It brought with it a variety of institutional changes--bankruptcy court replaced debtors' prison as the outcome of financial failure--and a rebalancing of economic power favoring capital over land and labor, later readjusted by the development of antitrust law and the labor movement.
+Then, since the 1930s, these new relationships among capital, labor, and consumers remained broadly unchanged in the industrialized world.
+
+But they are changing now.
+
+Today, financial capital is no longer scarce: human and intellectual capital are.
+Once again, a pattern of changing relationships among holders of the new and old forms of capital is unfolding, as the information economy begins to mature.
+Financial capital is no longer scarce--venture capitalists have lately been giving money back to investors because they lack sufficient opportunities that combine good ideas with proven people.
+And so we should expect to see institutional innovations that mobilize these newly scarce resources.
+Corporations and financial institutions will see their roles wane as landowners did in the 19th century; owners of human and intellectual capital will grow in power as financiers did before them.
+
+"Human and intellectual capital" is not a metaphor--talent and knowledge are capital goods in the same sense as milling machines and delivery vans: they represent productive capacity, they require investment, they depreciate, and they can be bought, leased, or rented.
+
+These forms of capital present unique features that do not fit our management models for financial and physical capital.
+Thus, the network-based innovations that are making most markets more liquid and efficient--ECNs in the financial world, CNET, Amazon, and the like in the world of goods--have made only limited inroads in the human capital markets.
+Thus far, Monster.com and MyRichUncle.com are interesting developments, but have not transformed markets for human capital.footnote:[For more about the future of markets for human capital, see _Future Wealth_, by Stan Davis and Christopher Meyer.]
+
+There are two challenges facing efficient human capital markets.
+First, most individual capabilities are difficult to characterize, so that trades are difficult; money is by definition fungible, human capabilities are not.
+Second, the social trend is away from standard forms of employment and toward free agency.
+Formerly only available to stars like Charlie Chaplin or Curt Flood, free agency and other more self-organized forms of employment are increasingly popular.footnote:[These developments are described in Dan Pink's _Free Agent Nation_.]
+Each corporate downsizing, job offshoring, and economic downturn teaches more people how to be free agents.
+
+The challenge of markets for intellectual property is even more daunting.
+Information has unique economic characteristics: it can be shared at very low marginal cost; and often reducing its scarcity increases its value. 
+The more people who use AOL software, the more content is available to AOL users.
+The distribution of enormous quantities of AOL CDs is not equivalent to giving away razors to sell blades.
+Because many AOL users come to meet others in the AOL community, it's as if giving away razors made blades work better.Seth Godin, author of _Viral Marketing_, has offered his books free for downloading — making his content un-scarce — and then self-published hardcover "mementos" for $40.
+He summed up a key idea of marketing intellectual capital: "You give it away until you charge for it."
+
+Creating, rewarding, distributing, and pricing information is the tectonic hotspot of our current economic evolution, where the industrial plate is diving beneath the new information landmass.
+Above it, we can see an archipelago, formed of islands of innovation, often marked by conflict. For example:
+
+* In the world of entertainment, Napster's (original) exploitation of the economics of information has been contending with industrial-era pricing models as if the value were in the CD, not the content.
+A new field, "Digital Rights Management," has surfaced in law, to help — maybe — work through these issues across all media and other forms of IP.
+* The early work to sequence the human genome pitted Celera, with the ambition to make the information proprietary, against the efforts of government-sponsored programs aiming to make this intellectual property freely available;
+* MIT has made its course materials available free on the Internet;
+* Creative Commons, a "non-profit organization working to re-establish the balance between public and private gain in the proprietary control and use of creative work," was launched in 2002 in part to counterbalance the push by copyright and patent owners to extend the lifetime of these restrictions indefinitely.
+Creative Commons has defined "some rights reserved" licenses that creators of intellectual property can use when they contribute their work to the Commons; they acknowledge that they take inspiration from the Free Software Foundation's GNU General Public License, discussed in detail in this book.
+This is open source in the literacy domain.
+* iTunes, Apple's online music store, has succeeded by defining "ownership" of music as the right to copy it onto unlimited CDs and five computers.
+This is a version of open source for music.
+* Sun Microsystems, with several other companies with a stake in the success of the programming language Java, created the Java Fund to invest in startups that built Java-based software.
+Their purpose was to accelerate the visibility and acceptance of Java as a standard. In effect, they were trading proprietary ownership to attract the human and intellectual capital required for their success.
+
+The elephant in the room not yet mentioned is, of course, the development of the Linux operating system, and the Open Source software activities for which it serves as avatar.
+Because Linux has achieved such success in terms of the size of its community, the quality of its product, and above all its commercial importance — not just as a competitor to Microsoft but as the basis of new companies like Red Hat and new activities at, for example, IBM, it is the most visible and persuasive evidence that surprising innovations are taking place.
+
+_The open source community points the way to new concepts of property because it occupies the crossroads of the two streams of novelty: first, it engages self-organizing free agents as its labor force, mobilizing human capital.
+Second, open source relies upon the very low cost of reusability and distribution of software code for its economic effectiveness, mobilizing intellectual capital._
+
+Thus, _Innovation Happens Elsewhere_ is at least as important for those who have no interest in software as for those who do, because in the details of the history and practice of the open source community lie clues to the institutional adaptations of the information economy; in the clauses of the software licenses presented here lie the case law that will come to define property in the information age.
+There are other books that have a great deal to say about this evolutionfootnote:[See, for example, _The Success of Open Source_, by Steven Weber, or _The Wisdom of Crowds_, by James Surowiecky.], but Ron Goldman and Richard Gabriel offer the unique inside-out insight gained in flesh-and-blood open source projects and personal roles developing the structures that have supported them.
+
+The importance of this example is not just that Intel was upholding the open standard business model against the desire for proprietary profits; it's that China, which has for decades disregarded the importance of intellectual property rights, has come to see upholding these property rights as in their own interest as they play with the rest of the developed world.
+And it is the flesh and blood that will be affected. Life in the "gift economy" associated with open source activities is lived by a different set of legal rules, values, and norms than those in the zero-sum industrial world.
+Ultimately, this will prove a powerful platform for economic growth, and may even accelerate the equalization of incomes around the world.
+A recent example: the Chinese government had established a requirement that Intel and others conform to a technological standard, whose patents were held solely by Chinese companies, to gain the right to sell WiFi chips in China.
+Intel responded that the value of a single worldwide WiFi standard was undeniable and large, and that they would forego the Chinese market rather than conform. China backed down.
+
+The basis of property is not immutable — in the agricultural economy, land itself spawned a set of rules for how its value could be shared — this Dirt Rights Management approach was called "usufruct."
+We are in the midst of another reinvention of property, and the best clues to its nature available can be found in the world of open source software. Read on.
+
+— _Christopher Meyer_, Chief Executive, Monitor Networks, March, 2005
