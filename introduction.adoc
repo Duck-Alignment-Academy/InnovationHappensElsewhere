@@ -212,3 +212,145 @@ Pull-type websites need to have compelling content for people to visit every day
 Nevertheless, many companies have embraced the use of open source.
 In 2002, a study by Berlecon Research (FLOSS — Free/Libre Open Source Software: Survey and Study) conducted for the European Commission found that eight of the world's 25 largest software companies, including IBM, HP/Compaq, SAP, Hitachi, and Sun Microsystems, had a major involvement with open source and that another three companies engaged in lesser open-source activity.
 This was based on public announcements by the companies of their involvement, and so the actual use of open source is undoubtedly higher.
+
+=== Communities
+
+One of the hardest lessons to learn about working in open source is that the work involves community building, politics, citizenship, principles, and governance.
+An open-source project consists of some shared artifacts — source code, documentation, and so forth — and some mailing lists, newsgroups, and perhaps some other social software.
+That is, there are the things, on the one hand, and the people, on the other.
+The people form a community, a community that interacts, that forms customs and traditions, that develops friendships and affiliations, and that, in short, creates a culture.
+Many software developers ignore the social aspects of open source and might even be surprised, in many cases, to hear people talk of open source as a social or community activity.
+At the first Jini community meeting, one developer remarked, "Is Jini a technology or a sociology experiment?"
+
+For a company to succeed at open source, and more so than for an individual or an established open-source project, it must take community seriously and be explicit about it.
+This is because there is always some suspicion by outsiders that a company has some hidden, unpleasant agenda.
+
+Community building consists of the activities done to foster a culture and make it pleasant and rewarding to be a member of the community.
+There must be ways for individuals to visit the community, learn about it, join it as newcomers, become productive members, develop into experts, and finally become respected elders.
+
+Politics enters the scene when companies or other competing interests are involved.
+How are compromises made? How are the positions of established expertise respected?
+These are political questions.
+
+Citizenship has to do not only with the ways individuals mature through an arc of roles, but with whether individuals have the opportunity to feel that being a member of the community distinguishes them from others and whether this distinction is a source of pride.
+Perhaps the community has a significant name (Linux), a logo or other identifiable sign (a penguin), or established customs (yearly community meetings).
+Perhaps the community is known for its level of technical expertise or its important contributions.
+
+Principles form the backbone of any open-source project.
+Software developers and engineers are overwhelmingly principled and ethical,footnote:[Virus writers and crackers notwithstanding.] so that any open-source project started by a company needs to embrace and make explicit its dedication to principles.
+Open-source projects started by individuals generally don't have to be explicit about their principles because such principles are so prevalent within the developer community.
+But a company does not have this luxury.
+
+Governance has to do with how decisions are made about the workings of the community.
+For the Linux project, Linus Torvalds makes many decisions about what code gets accepted into the source tree and who else has the authority to make such decisions, so he is part of the governance of the project; he decided that he makes such decisions.
+For companies, governance generally needs to be more explicit and, obviously, equitable and fair.
+As non-company-based open-source projects mature, they are finding that governance needs to be made explicit.
+
+A good example of the importance of community is the project that designed Common Lisp, which was one of the first large network-based design collaborations, begun in 1981.
+One of us (RPG) was the originator of the Common Lisp effort.
+It began in the summer of 1981 as a consolidation effort between descendents of an older dialect of Lisp called MacLisp.
+After a series of short face-to-face meetings, the bulk of the work shifted to an email-based discussion on the ARPAnet (the predecessor of the Internet).
+The acknowledged list of contributors contains 62 individuals who exchanged over 2000 email messages over a 2-year period along with two or three face-to-face meetings and four drafts of the specification written primarily by Guy L. Steele Jr.
+Over its lifetime, the group exchanged well over 10,000 email messages.
+
+The culture of this community was central to how it worked.
+The community developed an interaction style and a particular online culture in which a person's participation as well as "influence" depended on his or her expertise.
+Keep in mind that at that time (1981) there were no or very few online communities.
+Network email was limited to some universities and Department of Defense-related companies.
+It turned out — as we know only so well today — that people are more prone to be insulting and forthright in email than in person.
+Many of the discussions carried on over the network were quite spirited, but they had the advantage of being written down.
+There was no need to rely on dim memory or pale ink because all the mail was automatically stored in a centralized place, so there was no chance of losing or misplacing it.
+
+The discussions were often in the form of proposals, discussions, and counterproposals for the design of Common Lisp.
+Code examples from existing software or proposed new syntax were often exchanged.
+And all was subject to quick review by community members.
+New members of the community wishing to come up to speed could go to the archives.
+
+This online style had some drawbacks.
+Foremost, it was not possible to observe the facial and body reactions of other people, to see whether some point angered them, which would mean the point was important to them.
+There was no immediate way to see that an argument had gone too far or had little support.
+This meant that time was wasted and that carefully crafted written arguments were required to get anything done.
+
+The leader of the group was Scott Fahlman of Carnegie-Mellon University, and there was an inner circle of decision makers — Scott Fahlman, Guy Steele, David Moon, Daniel Weinreb, and Richard P. Gabriel — called the Quinquevirate or Gang of Five.
+Just outside this circle was the semi-official Common Lisp Group, which included 33 individuals. This was its governance.
+
+In all, the benefits of the contentious interaction style characteristic of the culture outweighed its problems.
+Moreover, the expert leadership, the small core of decision makers, the excellent specification-writing talent, and the freedom to work continuously without needing to schedule meeting times meant that the result was quite extraordinary.
+Despite the diverse and oddball nature of the individuals, a definite culture emerged with strong bonds, a private language, emergent roles, and definite traditions.footnote:[The transcript of the Common Lisp email interactions was studied by JoAnne Yates and Wanda J. Orlikowski of the MIT Sloan School, resulting in two reports: "Knee-Jerk Anti-LOOPism and Other E-mail Phenomena: Oral, Written, and Electronic Patterns in Computer-Mediated Communication," MIT Sloan School Working Paper #3578-93, and "From Memo to Dialogue: Enacting Genres of Communication in Electronic Mail," MIT Sloan School Working Paper #3525, Sloan School, MIT, Cambridge, MA, July 1993.]
+
+The Common Lisp community was based on the principles of openness and the celebration of technical expertise that characterized the MIT AI (Artificial Intelligence) Lab culture.
+This is the culture that formed and still supports the views of Richard Stallman, who is the founder of the Free Software Foundation — which kicked off the open-source movement — and who was an active member of the Common Lisp community.
+
+Politics was central to the community.
+One goal was to bring together Lisp machine companies that had developed new and different Lisp language features to distinguish themselves from each other and other Lisp vendors (both hardware and software vendors) to agree on a common standard — if it was successful, this standard would diminish their differentiators.footnote:[And, in fact, some have argued that the eventual success of Common Lisp as a standard language combined with improvements in general-purpose computers and compiler technology dealt all the Lisp machine companies a death blow.]
+Moreover, software Lisp vendors working on general-purpose computer implementations, academics, and Lisp users were invited into the community, with their conflicting and unusual perspectives and requirements — some commercial, some scientific, some engineering-based, and some just oddball.
+All these groups were expected to come to a common agreement.
+This is politics par excellence.
+Pride of citizenship was conferred by the attentiveness of ARPA to the group and the fame of some of its principals.
+
+Finally, the curious fact about the Common Lisp effort was that even though its apparent product was a specification of Common Lisp in the form of a book, the members of the community never worked on the text of that book.
+There were no artifacts that formed the center of the community; people, in general, did not contribute code, text, or editing expertise.
+The writing was done entirely by Guy Steele and the other members of the Quinquevirate.
+The community was there to make decisions, much as do legislatures and constitutional conventions.
+A newcomer to the Common Lisp community needed to listen and read the email archives — until Steele's first draft there was no artifact available to study and change; and after, only Steele could change the draft.
+The day-to-day activity consisted of political and technical debate followed by making specific decisions, which means that the Common Lisp project was essentially all community.
+
+=== Who This Book Is Intended For
+
+We wrote this book to help business executives understand when and how an open-source strategy can help them to achieve their company's business goals.
+We also want to provide support for the managers charged with implementing that strategy in their day-to-day work running a project that makes use of open source.
+
+The book is also aimed at the engineers who may need to work on open-source projects.
+We want to give them an idea of what they will experience and what will be expected of them.
+We also want to give them the information they will need to educate their managers and co-workers about open source.
+
+Third, the book is for anyone interested in a better understanding of open source — its larger history, its philosophy, and its future prospects.
+
+==== Software Developers
+
+Since we wrote the first draft of this book, the depth of the recession of the early twenty-first century has made itself felt in the software industry.
+We don't want to make this book specific to a particular era, but we want to point out to software developers of any time period the educational and experiential advantages of working with open source.
+It is unlikely that open-source code will disappear.
+This means that open-source systems will form the basis of a significant portion of our computing infrastructure for many years.
+An individual who has experience working with open-source software will enjoy a variety of advantages.
+
+Experience with open source can add value to your skill set.
+Operating systems, web servers, scripting-level languages, wikis, weblogs, email infrastructure, and many other facilities come from the open-source world, and experience with these pieces of software is valuable.
+Experience working with open-source projects can be of value to companies that have or plan to have open-source projects of their own.
+Knowing the roles of the members and having a good idea of how the process works is essential for companies to succeed with open source, and knowledge comes more from experience than from books.
+
+Working with an open-source project will give you experience working in a distributed development environment and perhaps working with non-English speakers from different cultural backgrounds.
+Increasingly companies are locating development groups around the world, both in-sourced and out-sourced, and experience in this sort of environment can be essential.
+
+Open-source projects work using documents and written communications.
+The documents can be as simple as an emailed specification or design rationale, but they are documents nevertheless.
+Working through writing is a way to bring more discipline to the development process.
+Moreover, you can become a better writer by practicing writing, and working on an email-heavy project will give you lots of practice.
+
+In an open-source project, the source code is available for inspection, and the designers and implementors of the software are generally available and willing to answer questions.
+Reading (and critiquing) source code is one of the best ways to learn about design and implementation.
+Open-source software is available for continual improvement, so it might be higher quality than commercial code and, thus, a better educational experience.
+
+Before open source became prevalent, self-training in many of these areas was a hit-or-miss affair.
+Learning software development requires interaction, and it was difficult before Internet-based open-source projects existed to find places to get the sort of interaction needed for training.
+
+=== Open Source as Business Strategy
+
+Making a public open-source project successful takes more than a press release and putting some code outside the firewall.
+Open source is a development methodology, but companies whose thinking stops there will find the experience disappointing.
+Open source is sometimes called a lifestyle, which means that successful open-source projects operate under a set of cultural conventions that may be foreign or difficult for some companies to accept.
+Public-open source is not a cost-saving mechanism, and it takes a careful business analysis to justify using it.
+
+This book focuses on what a company needs to do to make open source a part of its business.
+This starts with understanding the business reasons for using open source and goes on to the details of day-to-day project activities.
+Included are examples of how companies such as Sun, IBM, HP, and Cisco Systems have successfully benefited from their use of open source.
+
+Our examples tend to be drawn from Sun projects.
+The reason for this is that we have had the opportunity to observe not only the reaction of the community and pundits to company-sponsored open-source projects and the reports of people working on the inside on these projects, but also the internal discussions, pro and con, good and bad, of the decision makers.
+We were able to see what advice was taken and not taken, and what the results were.
+Sun is neither the best practitioner of open source as a business strategy nor the worst.
+Sun's record is spotty with some good successes and several embarrassments;
+the company embraces some of the fundamental tenets of openness and working with a community that are required for a successful use of open source as a strategy, but it often fails to embrace them thoroughly enough to realize all the benefits.
+
+We do not advocate using open source blindly as a strategy, and we are not die-hard promoters of open source.
+We hope this book is a balanced look at the pros and cons of open source, along with tested advice on how to succeed once open source has been chosen as a part of a company's strategy.
