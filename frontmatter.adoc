@@ -157,3 +157,110 @@ The basis of property is not immutable — in the agricultural economy, land its
 We are in the midst of another reinvention of property, and the best clues to its nature available can be found in the world of open source software. Read on.
 
 — _Christopher Meyer_, Chief Executive, Monitor Networks, March, 2005
+
+=== Preface
+
+[quote,"Ron Goldman"]
+To all the people volunteering on open source projects
+
+[quote,"Richard P. Gabriel"]
+For Jo, Mika, Joseph, John, and Helen
+
+In the fall of 1998 Bill Joy and Mike Clary asked us to help establish a community of developers and companies around Sun's then-new Jini network technology.
+Jini is a simple distributed computing model based on the Java programming language that enables services running on different computer systems to spontaneously interact with each other over the network with minimal pre-planning for such interactions.
+For Jini to succeed, it was clear that the underlying Jini protocols and infrastructure would need to become pervasive, and to accomplish that would require a strong community of participants and partners.
+Moreover Sun did not have the expertise to define Jini services in areas like printing, digital photography, storage, white goods, or the many other potential markets for products that would benefit from being network enabled.
+
+As a preliminary step the Sun Community Source License (SCSL) had been developed to provide a framework where the source code for Jini could be safely shared.
+SCSL is not true open source, but has many of the same characteristics.
+However a license and providing the source code were not enough — there had to be more to motivate people to participate.
+We worked with the Jini engineering and marketing teams to apply the lessons we had learned from being involved in various open source and community development projects and from our studies of complexity science to create a true Jini Community.
+
+We worked hard to help establish an identity for the community.
+To build identity and culture requires face-to-face interaction, so we organized community meetings that were held in interesting places and featuring non-traditional speakers.
+The first Jini Community meeting was at the Aspen Institute in Aspen, Colorado.
+We played team-building games, we engaged a recording graphic artist, we broke into groups in unusual ways.footnote:[For example, we used a team-building exercise in which people sort themselves into a line where one end represents January 1 and the other December 31, and each person's place in the line corresponds to their birthday. No talking, writing, or showing documents is allowed, so the idea is for people to establish how to communicate silently while communicating silently. The result is tested by having people call off their birthdate in the order they are standing in the line. Then we would select groups by counting off in this ordering.]
+We encouraged nonstandard thinking and speaking as individuals rather than as representatives of companies at times.
+The keynote speakers included Robert Dahl, a political scientist, talking "On Democracy," and Thomas Petzinger, a Wall Street Journal columnist, speaking about new business models based on cooperation.
+
+We also helped create a website for the project (http://www.jini.org) as a meeting place, a newspaper, a repository of shared documents, a totem, and a place to share work and projects.
+Most of the shared assets of the community could be accessed there.
+The website had a public part that advertised the community, and private parts for members only to help foster community identity.
+
+Common vocabulary leads to shared stories and then to shared beliefs.
+We created a pattern language on how the Jini Community could work, which has served to create a shared vocabulary — terms like dangerous waterhole, cut & run, and microcosm that serve as linguistic markers for the uniqueness of the community and culture.
+The pattern language was designed to teach how to build (self-) governance structures and procedures on the fly which have proven to be comfortable and delightful in the past but which were to be tailored to the specific on-the-spot needs of the community.
+
+We also worked with the community on developing a formal decision-making process and a "community process" for the purpose of ratifying definitions for Jini services.
+The former was to make it clear how community-wide decisions are made — how are proposals created, how are they voted on, how are appeals made — and the latter was to specify how the community can officially bless or endorse a service definition.
+
+The request to help build a community around a technology for business purposes led us to research and think about business in the commons.
+How do open-source projects work?
+How can a company participate?
+Why would a company engage in an activity centered around giving things away?
+How and why could such a thing work?
+
+Since the spring of 2000 we have done similar work with other Sun-sponsored open-source projects such as NetBeans, OpenOffice, Project JXTA, and java.net.
+We have worked with each of those teams to help them to define their open source strategy along with how to implement it.
+
+This book contains not only the lessons we have learned from helping to create and nurture communities around these Sun-sponsored and other open source and community development projects, but the fruit of years of participation in innovative communities of many sorts.
+Specifically, one of usfootnote:[RPG] was the originator of the Common Lisp Group, which is the first, large-scale, email-based design effort;
+this group worked from 1981 until the early 1990s.
+The same authorfootnote:[RPG] founded Lucid, Inc, one of whose products — designed and implemented in the late 1980s — used a suite of free-software tools tied together by a proprietary, database-centered coordination layer.
+The tools included GCC, GDB, and a window-based version of Emacs originally called Lucid Emacs and now called Xemacs.
+The interaction of the suite of tools with the coordination layer was through an open set of protocols, and several compilers were modified to support these protocols.
+Lucid was one of the first companies to do significant work on open-source code (in this case, Free Software Foundation code) as part of a business strategy, and in fact, the existence of LGPL is partly due to this early commercial use of GPLed code.
+
+This book also includes insights from studying other open-source projects such as Linux, Apache, Emacs, Xemacs, GCC, GDB, and Mozilla.
+
+We have had experience with projects and companies that were trying to achieve something creative in the context of a passionate user, developer, and partner landscape where the knowledge, expertise, and innovation in that landscape needed to be part of the creativity.
+
+_Ron Goldman_
+
+_Richard P. Gabriel_
+
+March, 2005
+
+This book is a work in progress and we welcome comments on how to improve it.
+Please send your suggestions to IHE@dreamsongs.com.
+An online version of it can be found at: http://www.dreamsongs.com/IHE
+
+=== Acknowledgements
+
+The authors wish to acknowledge everyone who has talked with us or written about their experiences with open source;
+we have heavily mined those works to produce this book.
+
+We wish to thank Bill Joy and Mike Clary who initiated this work by asking us to help create a vibrant community of developers using Sun's Jini Technology.
+We also want to acknowledge the strong support we received from Emily Suter and Ingrid Van Den Hoogen.
+We also thank the members of the Jini development team, especially Ken Arnold, Mark Hodapp, Jim Hurley, Charles Lamb, and Jimmy Torres
+We also acknowledge some of the Jini Community members that helped us such as Cees de Groot, Alan Kaminsky, Michael Ogg, Aleta Ricciardi, Sylvia Tidwell Scheuring, Jerome Scheuring, and Bill Venners.
+
+Thanks to Rob Gingell and Bonnie Toy for asking us to advise other groups at Sun who were considering using open source and for supporting us while we completed this book.
+
+The members of Sun's Open Source Program Office, Danese Cooper, James Duncan Davidson, and Eric Renaud, were very helpful in spreading the open source message at Sun.
+Danese, in particular, helped shape this book in its early stages.
+
+We thank Brian Behlendorf and Mitchell Baker for sharing with us the lessons they had learned from the Apache and Mozilla projects, and also Tim O'Reilly for sharing his insights about open source.
+
+Sonali Shah provided us with key insights into why individuals participate in open source, and how outsiders participate in a company's innovative activities.
+
+We have benefited from comments on early versions of this book from a number of readers including Bob Sproull, Emily Suter, Danese Cooper, Lawrence Lee, Ed Burns, Steven Rubin, Philippe Lalande, Duncan Findlater, Michael Davey, Rod Evans, and Tony Graham.
+
+Anders Hejlsberg and Dave Thomas provided valuable information about some of the historical points noted in this book.
+
+We also want to thank the various Sun groups that have let us experiment on them as they have explored using open source.
+The NetBeans team has been especially helpful, particularly Evan Adams, Kartik Mithal, Dirk Ruiz, and David Taber.
+From StarOffice/OpenOffice we want to thank Alan Templeton, John Heard, and Marissa Bishop.
+The whole JXTA team has been great to work with, thanks to Juan Carlos Soto, Emily Suter, and Ingrid Van Den Hoogen.
+Also John Tollefsrud of the Sun GridEngine project.
+The java.net team — though they didn't realize it at the time — permitted us the most freedom we've ever had to try to create a community around open source and the open source ethos that was informed by our experiences before and during writing this book.
+Ingrid Van Den Hoogen was gracious enough to put her reputation in our hands once more, and we were joined again by Emily Suter.
+Daniel Steinberg of Dim Sum Thinking taught us about how journalism fit into community building, and Cathy Guthrie, Micheline Nijmeh, John Bobowicz, Ken Ostereich, and Chris Cheline helped keep the rubber off the sky (mostly).
+
+Also thanks for their help to Guy L. Steele Jr., Jan Hauser, Jennifer Umstattd, John Ravella, Thomas Petzinger Jr., Robert Dahl, Kathy Knutsen, Bill Lard, Clifford Allen, Mike Schilling, Douglas Begle, Thomas Benthin, Pankag Garg, Peter G. Capek, and Steve Graham.
+
+We thank Tim Cox, Richard Camp, and Stacie Pierce, and Paul Gottehrer of Morgan Kaufmann for their help in publishing this book, and also our external reviewers, Lara Fabans, Harold E. Gottschalk Jr., and Ted Leung, for their comments, which helped us improve the presentation.
+
+Ron Goldman extends his special thanks to Mary Alexander for editorial assistance and writing advice.
+
+Richard Gabriel thanks Jo Lawless for enduring yet another writing project, and the Lisp community for providing him with the opportunity to help create one of the first online design communities — the Common Lisp community.
