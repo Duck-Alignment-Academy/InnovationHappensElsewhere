@@ -20,3 +20,4 @@ More likely, I'll write about what I find relevant (and irrelevant) at https://d
 If you notice a problem, issues reports and pull requests are welcome at {url-repo}.
 
 include::frontmatter.adoc[]
+include::introduction.adoc[]
