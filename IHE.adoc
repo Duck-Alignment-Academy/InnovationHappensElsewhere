@@ -22,3 +22,4 @@ If you notice a problem, issues reports and pull requests are welcome at {url-re
 include::frontmatter.adoc[]
 include::introduction.adoc[]
 include::InnovationHappensElsewhere.adoc[]
+include::WhatOpenSource.adoc[]
