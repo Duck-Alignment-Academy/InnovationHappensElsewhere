@@ -1,0 +1,123 @@
+
+== Licenses
+
+Open source is a commons-based activity in which a community of people work on a shared artifact, in this case source code.
+Source code is covered by copyright law, which in the United States grants copyright to an author immediately upon completion of the piece.
+When copyright law in the United States was first written, the duration of protection was 14 years with perhaps an opportunity to renew it once.
+Now copyright extends until the death of the author plus 70 years.
+
+Software enjoys the same protections as any other literary work.
+In addition, software may contain the implementations of patented methods — called software patents.
+Currently, the copyright holder retains the right to strict control of the work, including copying, derived works, distributions, and public performance.
+Originally, copyright law tried to strike a balance between providing an incentive for creators and allowing other creators to build on works already created.
+The expansion of copyright protection has been rapid over the last 40 years as institutional "content" creators lobbied for expanded protection.
+
+A key to understanding open source as a business strategy is coming to terms with the idea that there is a middle ground between "all rights reserved" and the public domain.
+It is possible for a holder of intellectual property to carefully craft a description of rights the holder wishes to retain and freedoms the holder grants to licensees.
+Think in terms of "some rights reserved" or "most rights reserved."
+Even when source code is visible and even downloadable on the Internet, the copyright and patent holders retain ownership of the material and, by licensing arrangements, control what they wish to control
+In fact, copyright and patents are in place precisely to encourage people to create, invent, and put on display their creations and explain their inventions.
+
+A good, clear example of this is the VTK project.
+The project provides a simple license as part of the copyright notice — and in fact, the term _copyright_ is used the way most open-source projects use the term _license_, and some open-source licenses, such as BSD (discussed later), likewise state their license terms as part of the copyright notice.
+The VTK directory structure isolates files and classes that contain patented algorithms (they are in special subdirectories), and the license states that any commercial use of those parts requires licenses from the patent holders — and it provides contact information for them.
+The commercial use could be as part of VTK or as part of other systems.
+However, individuals, universities, and companies can use the code without special terms as long as there is no commercial benefit derived, and the nonpatented parts can be used commercially without special licenses.
+
+This represents an example of how the rights to intellectual property have been carved up by one group.
+Other groups might limit the use of patents to software developed as part of the open-source project, while uses of those patents in other, unrelated software would be restricted or prohibited.
+
+Naturally, crafting a too restrictive set of rights granted to others can stifle the success of an open-source project, but there is no need to abandon all property rights.
+For open source to work, the author or copyright holder basically needs to grant rights to use, modify, and distribute.
+This is accomplished through licensing, which, although granting rights to others, does not transfer ownership in any way, so that the owner of the source code can change how the source is licensed in the future, can decide not to license it, or can transfer ownership.
+
+A variety of licenses have been created to meet the different needs of open-source projects — the original Berkeley Unix was released under the Berkeley Software Distribution (BSD) license, Linux and Emacs use the GNU General Public License (GPL), and Netscape created the Mozilla Public License (MPL) for its browser.
+Companies such as IBM and Sun have written a variety of licenses including the Common Public License (CPL), Sun Industry Standards Source License (SISSL), and Sun Community Source License (SCSL).
+Over 50 different licenses have been certified as meeting the criteria for open source by the Open Source Initiative, a nonprofit corporation dedicated to managing and promoting the Open Source Definition,footnote:[http://opensource.org] and additional types of licenses have been created for use by other open-source projects.
+
+This large number of possible licenses creates confusion for people considering starting in an open-source project.
+When choosing a license for your project, it is best to use one of the existing licenses — preferably one already in widespread use — rather than trying to create a new one.
+
+Creating a new license is a difficult legal process.
+It is likely that an existing license captures most, if not all, the concerns you might have, and the open-source community has little patience for people and organizations who don't believe in the already working, existing licenses.
+Moreover, a new license would perhaps need to be certified by the Open Source Initiative to satisfy the business objectives of its creator.
+Existing licenses — especially those in widespread use — are like brands in that people already are familiar with their terms and how to work with software licensed under them.
+By choosing a well-known, accepted license, you are also choosing a reduced learning and adoption curve for your community members.
+
+In this chapter we discuss what goes into a typical license and describe some of the most commonly used ones, including which type of projects they are best for.
+Which license is best for your project depends on your reasons for choosing to do open-source development. Chapter 7 includes a section on <<choosing-license>> that presents a list of questions to help you pick which license to use.
+
+Many people equate open source with the various open-source licenses, but the license is only a gate that people pass through.
+If people are not willing to agree to the terms of the license, then they don't pass through the gate.
+For those people who do accept, the license doesn't specify how they will work together;
+it merely defines some very basic ground rules.
+
+=== What a License Does
+
+A license grants outside developers certain rights that establish what they can and cannot do with the source code.
+The licenses we consider here grant the developer the right to use and modify the source code.
+Some licenses also include the right to use any intellectual property (IP), such as patents, that is embodied in the source code.
+Most licenses do not grant developers the right to take that IP and use it in a different application.
+
+Each license also requires developers to assume certain responsibilities.
+For example, some licenses require that any bug fixes that a developer makes to the source code must be contributed back to the original author.
+Another common requirement is that any IP used in the source code that a developer contributes must be made available (usually without fee) to other developers who use that code.
+
+A major area of variation among licenses is what, if anything, the developer must do in order to redistribute executable binaries built from modified versions of the source code.
+Many open-source licenses require that the modified source code also be made available, at no or nominal cost, to anyone who wants to see and use it — this being the whole point of open source.
+Some of the Sun-created licenses, SCSL and SISSL, include compatibility requirements in the license.
+
+Some licenses allow the source code to be incorporated into a larger work that is not subject to the terms of the license, although the original source code that is being included still is;
+other licenses consider any additions to be extensions of the original program and subject to all of the license terms.
+This is a key factor to consider if you plan on combining open-source code with proprietary code.
+
+Finally, all the licenses deal with various legal matters:
+warranty (typically none), liability (typically limited), termination of the license (if you violate any of its terms), dealing with brands and trademarks (typically not included with the license), and several other boilerplate issues that are also to be found in typical licenses accompanying commercial software (e.g., clauses about governing law, dispute resolution, U.S. government use, international use, and severability).
+
+=== What a License Does Not Do
+
+It is just as important to realize what a license does not do.
+A license describes certain boundary conditions, but does not speak about how developers will actually work together.
+It is up to other documents or traditions to describe the process of contributing code, making a new release, and deciding what to do when disagreements arise.
+The next chapter looks at the day-to-day functioning of a typical open-source project and how to build up a community of users and developers.
+
+The license may not automatically apply to changes contributed by outside developers.
+Many open-source projects require people wishing to contribute code to first sign a contributor's agreement before their code is accepted.
+(This agreement is discussed later in the section <<contributor-agreeents>>.)
+
+One other matter that most licenses do not touch on is how to ensure that modifications to the source code maintain compatibility with established standards.
+One way this can be done is to require that any distributed code pass a compatibility test in order to be granted the right to use a logo or brand.
+If there is an established brand, then this can be enough of a carrot for developers to keep things compatible.
+Most often, compatibility is maintained because the community values it and will not accept code contributions that deviate from the standard — anyone who wants to create an incompatible version is thus forced to fork the code and start a new project.
+
+=== More on Copyright…
+
+The author of a piece of software owns the copyright to the code and therefore the right to choose the terms of the license.
+The copyright owner may license the code to one group under one set of terms and to another group under a different set of terms.
+For example, the main product of the company Trolltech AS is the Qt library, a toolkit for building graphical user interfaces for applications.
+Trolltech makes the Qt library available under two very different licenses:
+the Q Public License (QPL) for use in noncommercial softwarefootnote:[As of September 2000, the Qt library is also available under the GPL for use by open-source projects.] (used by the KDE open-source project in its work to build a graphical desktop for Linux) and the Professional License for companies wishing to build a commercial product using the Qt library.
+The QPL version is free.
+The Professional License version is a commercial product that must be purchased.
+
+Because the copyright holder determines the license terms, there can be a problem if there are multiple copyright owners.
+People who make changes or additions to the original source code become the copyright owners for the code they have written, even if it is just one line.
+When these changes are contributed back to the open-source project, their authors usually license them under the same terms as the original source code;
+indeed, many of the open-source licenses require this.
+Many open-source projects will not accept a contribution unless it is released under the same license as the original code — having various pieces of the source code under different, possibly incompatible, licenses would be too confusing and difficult.
+
+A further problem arises if a project decides that it wants to change the license being used.
+For example, the Mozilla project is in the process of changing from the MPL to a triple licensing of the source code under either MPL, GPL, or LGPL.
+However, to make this happen, every person who has contributed any source code, and hence owns the copyright to it, must agree to the change.
+Just tracking down all of the copyright holders can be a major task, let alone getting them to agree to the proposed licensing changes.
+Because of this, some open-source projects request, or even demand, that contributors also assign their copyright to either the original author of the code or some agreed-on third party, such as the Free Software Foundation.
+
+=== …And a Quick Word on Patents
+
+Everything you know about patents from proprietary software development still applies to the world of open-source projects.
+Because your code is "published" when it is made available to people working on the project, any international patents required to implement the code need to be applied for beforehand and any U.S. patents need to be filed within 1 year.
+By contributing the source code to the project before a patent has been applied for, you may be giving up your right to patent the material, and by contributing it to the project without explicit license terms, you may be granting anyone who distributes a product based on the project the right to use your patent without compensation.
+Depending on the license you use, others may or may not have the right to use the source code, and the patent, in other work.
+
+It is also possible to make source code freely available, but require people to license your patents from you before they can distribute any software based on the source code.
+For example, the MPEG4IP project on SourceForge,footnote:[http://mpeg4ip.sourceforge.net] started by Cisco's Technology Center, provides an end-to-end system to explore MPEG-4 multimedia, but the codecs used by it are subject to patent royalties.
