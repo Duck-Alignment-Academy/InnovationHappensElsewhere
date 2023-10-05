@@ -111,6 +111,7 @@ At the heart of the reasons for a company to use open source is the nature of cr
 Creativity arises from diversity of ideas and viewpoints.
 Such ideas and viewpoints are spawned from conversations, either through direct dialog with people or through indirect interaction through artifacts such as art, literature, song, and technology.
 
+[#creativity]
 ==== Creativity
 
 Creativity is regarded by many as a talent that some people are blessed with and others not.
