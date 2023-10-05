@@ -627,7 +627,7 @@ This is a very code-centric view of the open-source process as a hierarchy that 
 
 .Single community built around source code.
 [#img-single-community]
-image::images/fig3-1.gif[]
+image::images/fig3-1.png[]
 
 And, in fact, this view makes the hierarchy into a funnel in which the goal is to convert people from one ring in the diagram to people in the next one in — almost as if the goal were to turn people into code in the end, the highest form of existence.
 
@@ -642,13 +642,13 @@ Here the code is still at the center; users, designers, and coders can look at t
 We use the term coder rather than developer to emphasize the roles being played:
 A coder is someone who manipulates code, either by writing new code to implement some design feature or by inspecting and correcting existing code someone else has written.
 
-The thin solid black lines in Figure 3.2 indicate changes to the source code, the dotted lines indicate viewing the source code and interacting with the program, and the thicker, black lines indicate communications between people in the different roles.
+The thin solid black lines in xref:img-different-roles[xrefstyle=short] indicate changes to the source code, the dotted lines indicate viewing the source code and interacting with the program, and the thicker, black lines indicate communications between people in the different roles.
 Note that the ovals representing the different roles are not drawn to scale;
 the users' circle should be much, much bigger for any healthy open-source project.
 
 .Different roles, still focused on code.
 [#img-different-roles]
-image::images/fig3-2.gif[]
+image::images/fig3-2.png[]
 
 This is still a view that focuses on the source code, but it brings out that design is separate from coding and that designers need not be coders.
 It also reflects the fact that people in the community may not simply advance from user to core developer in a linear progression but adopt the roles that make sense for what they are doing at the moment.
@@ -673,7 +673,7 @@ This overlap helps to create the larger community associated with the open-sourc
 
 .Communities built around common interests.
 [#img-common-interests]
-image:images/fig3-3.gif[]
+image::images/fig3-3.png[]
 
 Each of these communities has its own special interests;
 for example, some communities connected to Linux might include system administrators concerned with installing and configuring the Linux operating system on various types of computers.
@@ -713,7 +713,7 @@ For example, those people working on creating services for appliances in the hom
 
 .Different Jini code development interests.
 [#img-jini-interests]
-image::images/fig3-4.gif[]
+image::images/fig3-4.png[]
 
 A similar situation exists in any large open-source project.
 In Apache, for example, there are smaller subcommunities focused on the Apache HTTP Server, the Apache Portable Runtime, the Jakarta Project (which includes major efforts such as Tomcat, Struts, and Ant), mod_perl, PHP, TCL, and XML (with subprojects such as Xerces, Xalan, Batik, and Crimson).
@@ -746,7 +746,7 @@ There are also various third-party companies developing NetBeans modules that ar
 
 .Multiple NetBeans products and uses.
 [#img-netbeans-products]
-image::images/fig3-5.gif[]
+image::images/fig3-5.png[]
 
 There are several distinct user communities.
 First, there are those developers using NetBeans as an IDE to create Java applications — their concern is how to best use NetBeans to write Java programs.
@@ -819,7 +819,7 @@ Your business model must include a community focus.
 
 .Possible constituencies.
 [#img-constituencies]
-image::images/fig3-6.gif[]
+image::images/fig3-6.png[]
 
 === The Secret of Why Open Source Works
 
