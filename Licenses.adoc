@@ -83,7 +83,7 @@ The next chapter looks at the day-to-day functioning of a typical open-source pr
 
 The license may not automatically apply to changes contributed by outside developers.
 Many open-source projects require people wishing to contribute code to first sign a contributor's agreement before their code is accepted.
-(This agreement is discussed later in the section <<contributor-agreeents>>.)
+(This agreement is discussed later in the section <<contributor-agreements>>.)
 
 One other matter that most licenses do not touch on is how to ensure that modifications to the source code maintain compatibility with established standards.
 One way this can be done is to require that any distributed code pass a compatibility test in order to be granted the right to use a logo or brand.
@@ -550,3 +550,156 @@ Notes:
 . Under some conditions must give nonstandard executables nonstandard names and clearly document the differences in manual pages, together with instructions on where to get the standard version.
 . May be distributed only to those who have signed the SCSL.
 
+=== Dual Licensing
+
+Ideally, any two open-source projects should be able to share their source code with each other.
+However, if the two projects use incompatible licenses, then this may not be possible.
+For example, code developed for the Linux operating system, which uses the GPL, cannot be used by the Apache web server project because the GPL specifies additional requirements that are incompatible with the Apache license.
+To avoid this problem, some open-source projects have chosen to make their source code available under a dual-licensing scheme that gives developers a choice as to which license they will be bound by.
+
+If there are two disjoint developer communities that cannot or will not use the same license, then a dual-licensing scheme to allow both communities to participate can make sense.
+However, both groups need to benefit.
+For companies that will not participate under GPL and developers who want to use the code with other GPLed code, only a dual license can bridge the gap.
+The Mozilla project started with code under a dual license of the Netscape Public License and the Mozilla Public License because Netscape needed to have special access to the code in its proprietary products.
+Use of the NPL was intended to diminish over time and indeed has done so.
+Now Mozilla is shifting to a triple license of MPL, GPL, and LGPL in order to work better with other open-source projects that use GPL.
+
+For OpenOffice, Sun has released the source code under a dual license that allows developers to choose to abide by either the LGPL or the rules of the SISSL.
+This allows companies that will not touch code under the LGPL to still be able to participate, even though the main community are the developers working under the LGPL.
+
+It is important that any code sent back to a dual-licensed project be contributed under the same dual-license structure.
+Individual developers can take the code, modify it, and redistribute it using only one of the licenses, but if they want to have their changes incorporated into the official source code then they must make them available under the same dual license that the project uses.
+Otherwise, the project would need to keep track of which contributions were made under which license and it would be impossible to combine them;
+in effect, the project would fork. In OpenOffice, for example, it is important to avoid having some code that can be used only by LGPL developers and other code only by SISSL developers.
+
+Dual licensing is also used by some companies to allow them to make money from their open-source work.
+They make the software they develop available under both an open-source license such as the GPL and a commercial license.
+Open-source developers can choose to use the open-source license, but any companies that wish to incorporate the code in a proprietary product must pay for it under the commercial license.
+This is the business model used by Trolltech AS for its Qt multiplatform application development framework and by both MySQL AB and Sleepycat Software for their database products.
+
+[#contributor-agreements]
+=== Supplementing the License — Contributor Agreements
+
+While the license specifies what rights someone has to use the source code, many open-source projects also require that developers wishing to contribute to the project sign an additional form.
+Developers must state that they have the right to contribute their source code — that is, that they own it and that it does not belong to someone else.
+If the developer works for a company, the form has the developer state that the company grants the right to use the contributed code to the project.
+Note that even developers doing open-source work on their own time might still need to get approval from their employers because employee agreements often specify that the company owns anything employees invent.
+This is discussed further in the section <<approval-individual>> in Chapter 7.
+
+The form also usually states that the developer grants to the project the right to freely use any patents and third-party IP used by the contributed code.
+
+Some projects use the form to assign the copyright of the code to the project.
+Other projects, such as OpenOffice, use a joint copyright assignment so that both the project and the contributor retain full rights to use, modify, and redistribute the copyrighted work.
+
+Developers usually need to sign the form only the first time they contribute code;
+the form then applies to any subsequent contributions.
+Note that requiring developers to sign such a form before accepting their contributions goes beyond the scope of the license.
+Developers are still free to exercise their rights to the code, but, if they want to participate with the specific project code base, they must sign the form.
+For example, to have a contribution included in the Sun-maintained OpenOffice project requires a joint copyright assignment.
+So far, several years after the start of the project, developers have been willing to go along with this.
+If the additional requirements of the contributor agreement form are not acceptable, then a developer may be motivated to join or create a new project, that is, to fork the project.
+
+The actual text of contributor agreements for several open-source projects can be found in Appendix C.
+
+Other project licenses, such as the VTK project license, state that by contributing to the project the outside developers give as a gift to the three copyright holders of VTK their contributed code and intellectual property.
+This is an implicit contributor agreement.
+
+=== Licenses for Documentation
+
+An open-source project consists of more than just the source code.
+There is also associated documentation.
+Some of this is internal documentation used only by the project's developers that can be covered by the same licensing as the code it describes.
+Other documentation, however, such as user guides, tutorials, and reference manuals that are intended for widespread distribution, have different licensing needs than the source code, especially if they will be published as books.
+
+The point of using an open-source model for documentation is both to make it freely available to as many people as possible and to make it as good and up-to-date as possible by having many people write and review it.
+Both the freedom to distribute a document and the freedom to modify it are essential.
+Note that there are many documents that can be freely downloaded for personal use but that are protected by copyright and cannot be modified except by the original authors.
+
+Documentation is different from source code in many important ways.
+Although both can be downloaded for online use, people often want the convenience of a printed version of documentation, and a commercially published book is usually of better quality than a copy you print for yourself.
+There are major costs involved in writing and publishing a book, so potential authors and publishers have concerns about how many people will actually buy the book — as opposed to reading it online or printing their own copy — and also about other publishers reprinting the book and selling it.
+Any documentation license needs to address these concerns.
+Note that whereas code is usually developed to solve a problem for its writer ("scratch your own itch"), books are written mainly to earn money for the author and to solve the readers' problems.
+
+There is also the question of the author's reputation.
+When you read a book, you directly experience the author's words.
+This is unlike software, where a user never sees the source code, only the effect of running it.
+Often a book has a single author, and if there are problems because the text has errors or is difficult to read, then the reader will rightly blame the author.
+Likewise, the reader will give the author credit for clear writing and good information.
+If anyone can modify the text and distribute a new version, then the author might be blamed for errors someone else introduced, and the author's reputation could suffer.
+So making sure that any third-party modifications are clearly marked as such may be important to the author.
+
+Documentation licenses need to specify whether commercial redistribution is permitted, what types of modifications are allowed and how they are to be identified, whether translations are allowed, whether the source text must be made available (and, if so, whether it must be in a nonproprietary format), and how to credit the original author and publisher.
+Like source licenses, documentation licenses usually specify that there is no warranty and that aggregation with other documents doesn't cause the license to apply to them.
+
+Some licenses mention good practices for showing common courtesy to authors, such as contacting the authors well before redistributing any large number of copies, to give them a chance to provide an updated version of the document, and offering them a free copy of any published book or CD-ROM.
+
+==== Open Publication License
+
+One commonly used license is the Open Publication License, a cooperative effort of O'Reilly Publishing, New Riders Publishing, the Open Source Initiative, the OpenContent Project, VA Research, and others, written in 1999.
+The license was designed to be friendly to commercial publishers, such as O'Reilly and New Riders, who have published several books using the license — the full text of many of these books is available on the publisher's website.
+
+The license is fairly short.
+It allows for commercial redistribution and modifications, provided that any modifications are identified and dated, that the original author and publisher are acknowledged, that the location of the original unmodified document be identified, and that the original authors' names not be used to endorse the new work without permission.
+
+The license has two options that can be specified to prohibit the distribution of substantively modified versions without the explicit permission of the author and to prohibit any publication in book form for commercial purposes unless prior permission has been obtained from the copyright holder.
+
+Note that an earlier, related license, the Open Content License, is often casually referred to as the "OPL."
+So if you see a reference to the OPL you will need to check to see which license it really indicates.
+
+A copy of the Open Publication License can be found on the OpenContent website.footnote:[http://opencontent.org/openpub]
+
+==== GNU Free Documentation License (FDL)
+
+The GNU Free Documentation License (FDL) is similar to the Open Publication License (with neither option specified), but it specifies everything in much greater detail.
+The FDL was written in early 2000.
+It is used by many open-source projects where the source code uses the GPL, such as the GNOME project.
+A number of books using the FDL have been published commercially.
+
+The FDL distinguishes between the main technical content of a document and secondary sections that focus on the publisher or author, such as a preface or acknowledgments.
+These secondary sections can be declared invariant and required to be included in any derived works.
+Each author can also specify material that must be included on the front or back covers of any derived works.
+
+People making modifications must add a history section to document their changes.
+A machine-readable copy of the document, in an accessible (that is, nonproprietary) format, must be made freely available.
+
+The FDL does not include any warranty or liability disclaimers.
+
+A copy of the GNU FDL can be found on the Free Software Foundation website.footnote:[http://www.gnu.org/licenses/fdl.html]
+
+==== Public Documentation License (PDL)
+
+The Sun Public Documentation License (PDL) is a revision of the Mozilla Public License modified to apply to documentation.
+It was first used in August 2002 as the license for OpenOffice documentation.
+It was designed to facilitate revisions to existing documents, requiring that all modifications be documented, but not going into the detail that the FDL requires.
+It also makes it possible to take pieces from one document and use them in another, provided that reasonable attribution is provided.
+
+A copy of the PDL can be found on the OpenOffice website.footnote:[http://www.openoffice.org/licenses/PDL.html]
+
+==== FreeBSD Documentation License
+
+The FreeBSD Documentation License is just like the BSD license:
+It allows people to do anything they want with the licensed material as long as they retain the original copyright and disclaimers.
+
+A copy of the FreeBSD Documentation License can be found on the FreeBSD website.foonote:[http://www.freebsd.org/copyright/freebsd-doc-license.html]
+
+==== Creative Commons
+
+The Creative Commonsfootnote:[http://creativecommons.org] is an organization "devoted to expanding the range of creative work available for others to build upon and share."
+It provides a set of licenses aimed primarily at artists, musicians, photographers, and writers that permits a variety of rights to consumers of the work, such as the right to create, distribute, and perform derivative works.
+These licenses can be used for documentation and, perhaps with some modifications made in conjunction with the Creative Commons, for software source code.
+
+The Creative Commons in many ways exemplifies the principles and core values of the open-source community.
+Its website is a good place to visit to get a feel for how an even balance between the rights of the author and the rights of others can optimize opportunities for innovation.
+
+=== Licenses
+
+Open source is more than just a license and source code in a public place.
+The success of an open-source project is influenced mainly by how day-to-day matters are handled, not by the choice of license.
+Open source requires community, culture, shared vision, and a commitment to continuous design.
+That a project like Apache can succeed based on a minimal BSD-style license that does not even mention collaboration is proof that we need to look beyond the license.
+But the choice of a license can help set the tone for the project and define its legal boundaries.
+The license you choose also can determine how code from different contributors can be combined and which are the natural projects for you to collaborate with.
+
+None of the advice in this chapter should be taken as legal advice.
+For the definitive meanings of the licenses described here or for help in drafting your own, please engage a lawyer.
