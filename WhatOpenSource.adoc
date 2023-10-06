@@ -435,6 +435,7 @@ The code itself along with the archived discussions are the specification.
 Some open-source projects, especially hybrid company/volunteer projects, use more formal processes and produce more formal artifacts such as specifications, but even these projects accept the idea that the design should change as the requirements are better understood.
 In fact, we could argue that even software produced using the current principles of software design, software engineering, and software evolution are often discretized versions of continuous design — imposing the idea of formal design and specifications done largely upfront, but (unconsciously) allowing the effect of continuous design over a series of infrequent major releases rather than through small, essentially daily ones.
 
+[#common-myths]
 === Common Open-Source Myths, Misconceptions, and Questions
 
 The picture of open-source software painted by the popular media tends to be superficial and simplistic.

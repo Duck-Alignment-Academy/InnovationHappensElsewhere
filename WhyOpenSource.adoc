@@ -23,6 +23,7 @@ These include the following:
 
 These are also reasons why you might choose to join an existing open-source project.
 
+[#business-reasons]
 === Business Reasons for Choosing to Open Source Your Code
 
 Deciding to manage a development project as an open-source project requires making a careful determination of the project's business goals — an open-source project is generally more expensive to operate than a proprietary project, and there are different scheduling and development processes that need to be adopted and that can affect product delivery.

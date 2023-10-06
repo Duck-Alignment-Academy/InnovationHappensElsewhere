@@ -923,6 +923,7 @@ Until the Jini project included tools to automatically detect these problems and
 Some novices make use of the Jini FAQ and mailing list archives to solve their problems, whereas many more post their plight to the main mailing list.
 Going into its fifth year, the community continues to be incredibly supportive of new user problems, but it does take up the time of more senior members of the Jini community.
 
+[#community-website]
 ==== A Community Website
 
 People's first, and possibly only, exposure to your project is apt to be through your project's website.
