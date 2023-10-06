@@ -169,6 +169,7 @@ Had they posted their discussion, they would have gotten lots of volunteers and 
 Meanwhile, the other group of developers had privately discussed their problems with the current design, but didn't make them public until they announced the new project.
 Had they posted their comments earlier, everyone would have come out for a redesign, and they wouldn't have created a rift with the original development group.footnote:[A short article on the exchange is available at http://www.xml.com/pub/a/2000/07/19/deviant/index.html and reproduced in Appendix D. The actual message can be seen starting at http://marc.theaimsgroup.com/?l=xml-apache-general&m=96942807201829&w=2.]
 
+[#posting-etiquette]
 ===== Posting Etiquette
 
 In general, your internal developers have to be more careful about what they post than random, outside developers do.
@@ -1100,3 +1101,236 @@ ____
 
 Taken together, these three principles will help you to nurture and guide the excitement and energy of your users and developers to grow a successful project with an engaged community.
 The results will be much more than you could have done by yourself.
+
+=== Ending an Open-Source Project
+
+Open-source projects have a natural life cycle.
+They may start out slowly and then have a long period of growth when many new features are added and bugs fixed.
+Eventually, they can mature and go into a maintenance phase when people still use the software, but no further major development is done.
+As your project matures and you achieve your main business goals for it, you may want to reallocate resources to other efforts.
+Also, a change in your company's situation might force a decrease in its level of involvement.
+It is natural for the founder of an open-source project to leave in order to move on to other interests.
+However, this does not necessarily mean just abandoning the project.
+
+Right from the start of your project, you need to make it a practice to encourage community members to increase their participation.
+You should recruit active outside developers into the core team, giving them as much responsibility as they will take on.
+Each module owner should identify another developer who can take over as the new maintainer for the module if need be.
+For example, each module in Mozilla has an owner and one or more peers who can also approve code for check-in into the module;
+a peer is an obvious choice for replacing the current module owner.
+Involving outside developers in the running of your project early on is healthy for your project and creates a pool of people that you can turn the project over to should you need to.If your company decides to reduce or end its involvement in an open-source project, there are certain steps you need to take in order to assure a smooth transition and to avoid creating bad feelings toward your company.
+This is all very similar to how your company handles the end of life of its products in order not to antagonize its customers.
+Your company probably has a special process to approve ending a product.
+It should have a similar approval process for ending or decreasing participation in an open-source project that it has sponsored.
+
+As soon as the possibility that the company may need to decrease its level of involvement with the project arises, you need to plan out how to disengage.
+In your internal discussions, you may need to remind your managers and others that the company must not abruptly end its involvement — they need to understand that it will probably take several months to ramp down and turn the project over to the community.
+
+It is important that you announce your company's intentions to your community as soon as possible.
+You want them to hear it from you, not through rumors or an article in the press.
+Remember that what you do here may hurt the company's reputation, making it harder to sponsor or participate in other open-source projects in the future.
+
+If your company is currently paying for your project's website and it plans to stop doing so, then you need to work with your community to find a new home for it.
+Possibly one of your community members might be able to take over the hosting of it, or you may need to make use of one of the free open-source hosting services, such as SourceForge.
+You should help migrate over all of the website contents, CVS trees, bug databases, email archives, and other community documents.
+Be sure that the source code does not disappear when your company stops its support because your company may have a legal obligation to make sure the source code continues to be available for some specified time period.
+For example, the GPL requires the source code to be available for 3 years after the last release was distributed.
+
+You need to decide the level of future involvement your company wishes to have with the project, if any.
+This includes whether you want to encourage your developers to continue working on it as part of their jobs or on their own time if they so choose.
+For example, will you permit your developers to take time to answer questions about the source code that only they may be able to answer?
+
+How your company ends its involvement will leave a lasting impression.
+By doing things right, your company will be remembered for generously contributing its efforts to make the project a success.
+If your company just abandons the project, then it will be thought of as a company that doesn't care about open source and that is not a good partner.
+
+=== Joining an Existing Open-Source Project
+
+So far we have been discussing open-source projects that your company starts and provides the leadership for.
+If your work can build on an open-source project that already exists, then your needs are apt to be better met by joining that project and not by trying to start a new effort.
+You would definitely want to join an existing open-source project if your goal is just to port an open-source application to a new computer platform or to add a new feature to an existing open-source application or library.
+
+Joining an already established open-source project is much easier than starting your own project because someone has already set up the infrastructure (website, CVS code archive, mailing lists, and bug database) and a community of developers is already working on it.
+Thus you can focus your efforts on adding the new functionality you need.
+
+==== License Issues
+
+Before joining an open-source project you need to check that its licenses are compatible with your business goals.
+For example, suppose that you are planning to combine the existing open-source code with proprietary code.
+If the project is using a GPL-style license then you will not be able to do so.
+However, if it is using any of the other common open-source licenses, including LGPL, then you will be okay.
+
+==== Becoming a Good Community Member
+
+In theory, your involvement can be as limited as merely contributing a few bug fixes or small new features.
+Generally, your business goals will require you to do a bit more, and you will need to actively participate in the project and establish yourself as a valued community member.
+
+Each open-source project has its own flavor, just as each Internet newsgroup or mailing list does.
+People are known to the community by their previous posts and contributions.
+It is very important that, before you start posting to the project mailing lists, you first lurk for a bit.
+Read over some of the mailing list archives to get a feel for how the project operates:
+Who is influential, what are the current major issues, and how are issues decided?
+You should also search the archives to see what has already been discussed about your particular areas of interest.
+
+When you first post to the project to announce how you want to be involved, it is very important that you acknowledge the good work already done and explain how you plan to add value.
+You want to avoid appearing arrogant.
+You may also need to alleviate people's fears that your company is somehow trying to rip them off — sometimes just explaining why it is important to your company is enough to do that.
+
+Keep in mind that you need to establish your reputation as an individual working on the open-source project.
+Other people working on the project don't care so much about your position at your company.
+What they care about is the quality of your posts and code contributions.
+The more they respect you, the easier it will be to work with them.
+
+This might be a good place to mention some reasons why you should contribute any modifications you make back to the open-source project.
+First, it's the right thing to do.
+The community has made the code available to you, so you should return the favor by giving it any improvements that you make to the code.
+Second, it will help you build better relations with the community.
+If you are perceived as a good community member, then you are more apt to be listened to in discussions about the project's future.
+Finally, if you do not contribute your changes, then with each new release of the software you need to manually add your changes to the latest version of the source code — if the code has changed in ways that are incompatible with your modifications, you may need to do significant work to reincorporate your changes.
+When you give your changes back to the community, people who make additional changes will do whatever work is necessary to keep your code from breaking.
+By not contributing your changes, with each release you will need to do that work;
+you will be paying what is often called the stupidity tax.
+
+==== The Open-Source Development Process
+
+The key to open-source development is that it is an open process.
+This is especially to your benefit when joining an existing open-source project
+By looking at the project's website, you should be able to learn everything you need to know about how the project is organized.
+In particular, you can read the project road map to get an understanding of what development is planned.
+You can identify the individuals responsible for the modules you will be working on.
+You can read the mailing list archives to get a sense of the project's history and character.
+
+As you begin to work on the project, you need to make sure that you maintain this openness.
+Make sure that you use the project's public mailing lists and not a list internal to your company.
+Involve the community in any major design decisions that you need to make.
+
+Being open in your intentions is quite important in your dealings with the project's module owners.
+These are the people who have the final say as to whether your proposed contributions are accepted into the official code base.
+That being the case, it is important that you post a message announcing your intentions — what you want to do and how you plan to do it — before doing any major work.
+This will give the module owner and the other developers a chance to comment on your plans and evaluate how they fit in, or do not fit in, with the community's development plans.
+It is likely that you will need to make your work more general or extend the functionality to satisfy the rest of the project.
+It is also likely that the revised plan will be better overall.
+Note that if all you want to do is implement an API to your own proprietary code, that will not get much, if any, community support.
+
+Some of the discussion may become a bit heated;
+many developers express themselves quite bluntly.
+Don't let the flames get to you.
+Remember that many of the people you are dealing with are volunteers and some may be quite inexperienced.
+Your replies should be aimed at the community and not at the "idiot" who just flamed you.
+Refer to the earlier section on <<posting-etiquette>> for more on how to handle yourself when posting.
+
+For more details of the day-to-day mechanics of an open-source project, please see the earlier section "How to Do Open-Source Development."
+
+==== Getting Your Contributions Accepted
+
+To be effective when doing open-source development, it is very important to create realistic expectations on both sides.
+We have already talked about making sure that the community, and especially the module owners, have a clear expectation of what you want to contribute to the project.
+This will greatly increase the chances that your code will be accepted when you finish it.
+Another factor in your favor is that most people running an open-source project want their application to become popular and be used everywhere, so if your company is interested in modifying it a bit so it will be of interest to more people, you already have a leg up.
+
+It is also important that you have realistic expectations about how the open-source project functions.
+For example, it may release a major stable version once a year, so if it has just finished a release cycle, then anything you contribute won't be officially released until the next year's major stable version.
+Likewise, if the project is in the middle of a release cycle, there may not be much community interest in discussing the wonderful new features that you are planning on — you may need to wait until the release is done before people have the energy to discuss major new features.
+
+Another potential problem you face is that the particular module owner you are working with may be very slow in accepting your contributions.
+This may be because the module owner is busy with other matters or doesn't have much time to devote to the project.
+It may also be that your team of several developers is writing code much faster than the single module owner can digest it.
+If this is the case, you need to gain the trust of the module owner so that you can be allowed to check code in directly.
+It helps if you respect the coding style already used in the module when you write bug fixes, patches, or small changes.
+
+A major role of the module owner is to guarantee the quality of the code base by screening contributed code.
+Some module owners are happy to share this screening function with developers who have shown that they are competent.
+Although module owners have the last word on what goes into their module, they are fine about letting delegated individuals check in the code when it is ready, as long as the general design had been discussed on the project's mailing list beforehand.
+
+Sometimes, however a module owner refuses to delegate, and this can create a major problem.
+Some module owners insist on understanding every line of code in their modules, which is fine for small modules but may be impossible for a very large one.
+This is especially true for some original project owners who have never been willing to delegate responsibility to the various modules but instead insist on being a bottleneck that all major changes need to go through.
+If this turns out to be the case and the module/project owner is unwilling to change, you may need to muster community support for sharing responsibility.
+Otherwise, your only option is to fork the project.
+That is what happened with Emacs back in 1992:
+The XEmacs project came about when Lucid Inc., tried to contribute major changes to the display code and Richard Stallman refused to accept them.footnote:[http://www.jwz.org/doc/lemacs.html]
+A decade later, the two projects still remain separate.footnote:[http://www.xemacs.org/About/XEmacsVsGNUemacs.html]
+
+A successful example of a company joining an existing open-source project is IBM's work on the Linux operating system.
+In an interview on Slashdot, the IBM Linux Kernel hackers talked about getting their changes accepted into the Linux code base:
+
+____
+Question:
+Is Linus accepting your changes well?
+How directly do you submit patches, and what are your experiences on the overall Linux kernel development style?
+
+Answer:
+Linus himself is wonderful about accepting patches on technical merit alone.
+He doesn't "grade" them differently if they come from ibm.com or mit.edu.
+We submit patches the exact same way that everyone else does:
+append the patch, mail to Linus and CC linux-kernel.
+If it's good, it gets in.
+If it sucks, you get flamed.
+
+However, the submission process can be more complicated than first appears.
+Often, you need to figure out who is maintaining a particular area of code, followed by talking to them to gauge if someone else is already working on the same thing.
+Once you submit your code to them and the appropriate list (isn't always lkml…), you may not get a response.
+This can be discouraging, but you have to find out why, or just simply resubmit, over and over and over.
+But, once you have a reputation, it does get easier to get quicker responses.
+
+Sometimes it's frustrating when you've put a lot of effort into something that doesn't get accepted, but there's normally a good reason for it.
+Even work that doesn't get accepted can influence other people's thinking and development in the future.
+On the flip side you can also just point out problems and other people fix them for you, so in general you win more than you lose;-)footnote:[http://interviews.slashdot.org/interviews/02/06/18/1339201.shtml?tid=136]
+____
+
+=== Open Source within a Company
+
+Everything mentioned so far about running an open-source project or joining an existing one also applies to corporate source, where all of the users and contributors are employees of your company.
+What changes when everything is done within a company is that the potential audience is much smaller, and depending on the company's culture, it may be more difficult to communicate and work with other participants.
+
+In the normal world of open source, people working on a project come together because of their common interest in the project and generally do not have other connections between them.
+Sometimes volunteers might be in competing companies and that might influence their working relationship, but by and large everyone acts as individuals, albeit with their own personal technological biases.
+
+Inside a company, however, there can be substantial barriers to cooperation and a tendency to use the official hierarchy of the company to force both how decisions are made and what developers will work on.
+This is very much at odds with the idea of creating a community-based project.
+When you are working within your company, there can be lots of pressure to do things the standard company way.
+In a company-sponsored open-source project, you can fight against this kind of pressure by pointing out the bad press that would ensue, but this tactic does not apply to internal projects.
+
+This highlights the need to have strong executive sponsorship for corporate source projects.
+Without it, the time employees spend working on corporate source projects will often be questioned by their managers, and in hard times resources for the project will be the first to be cut.
+This is a typical problem — the work is good for the company as a whole but is not a priority for any specific department.
+It can take lots of nurturing to get a company's culture to embrace the cross-company cooperation needed for corporate source to be successful.
+
+To justify a corporate source project, it helps to be able to point to successes within the company due to using the tools developed by the project.
+The crudest way to do this is just to measure how many times the tools have been downloaded.
+That gives some measure of interest in the project and can be useful for potential users — it highlights what others have found useful in the past.
+Another measure is to look at the number of people contributing to the project and the parts of the company they are in.
+
+The normal wisdom is to try to minimize any barriers between an open-source project and a potential user.
+So we advise not requiring users to register in order to download.
+However, for their corporate source effort HP does require employees to register in order to download a tool.
+This, then, provides information on where in the company a tool is being used and enables HP to follow-up to see how it is being used.
+Part of the follow-up is an email message to the author or authors of the tool.
+This provides the authors with evidence of the use of their contributions, which can be used during performance reviews;
+it also provides an incentive for the authors to contribute more by improving the tool or contributing others.
+Thus, in this case, what would otherwise be a barrier is actually an enabler.
+
+One of the major problems faced by efforts to encourage software reuse is making developers aware of existing code.
+Likewise, for corporate source, if customer engineers do not know that there's a great tool that a corporate source project has developed, they will never use it.
+It is vital to make sure that when good tools are developed that this be advertised across the company to all those employees who might benefit from it.
+This requires communication between parts of the company that traditionally do not interact much.
+It also calls for communication at the grassroots level rather than through the normal organizational channels.
+Messages from executive sponsors can help to make the corporate source projects more visible.
+
+At HP Labs, the code repository was handed over to the corporate librarian, who organized it for easier search and retrieval.
+This constant attention to the contents of the repository for the purpose of making it easier to retrieve made a significant difference in the use and usefulness of the repository.
+
+This is part of a common thread for the use of open source.
+The source code is produced by developers, who have, in general, the mindset of an engineer. Engineers are good at looking at a complex situation, understanding it, and then either repairing it or designing something that helps make it better.
+That is, they are good at puzzling things out.
+For many engineers working on an open-source project, once the code is done, everything is done.
+Perhaps this attitude comes from the belief that other people are like engineers and that therefore anyone should be able to figure out the rest.
+For example, engineers are sometimes poor writers because they believe that once the sentences are more or less on the page, the meaning can be puzzled out.
+
+Therefore, we recommend that, for the documentation, the website, building the community, organizing meetings, and anything else that is not engineering the source code, you find people who are good at those things and who value them.
+The developers will appreciate it — perhaps without knowing why.
+
+=== How to Do Open-Source Development
+
+Doing open-source requires transparency and openness, and this extends to you, too.
+If art is a reckless encounter with whatever comes along, so is a successful open-source project.
+You need to give up some control and be willing to accept the direction the community takes the project because that is likely to be the direction where success lies.
