@@ -1221,6 +1221,7 @@ Refer to the earlier section on <<posting-etiquette>> for more on how to handle 
 
 For more details of the day-to-day mechanics of an open-source project, please see the earlier section "How to Do Open-Source Development."
 
+[#getting-contributions-accepted]
 ==== Getting Your Contributions Accepted
 
 To be effective when doing open-source development, it is very important to create realistic expectations on both sides.
