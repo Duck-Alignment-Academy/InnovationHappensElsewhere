@@ -602,6 +602,7 @@ It takes real work to make an open-source project successful.
 But putting in the required effort can yield a project that grows much more quickly than if you tried do to it all by yourself.
 For example, a year after Sun started the open-source Tomcat project it had 31 developers with commit access, only 9 of whom were Sun employees.
 
+[#building-community]
 === Building a Community
 
 Okay.
@@ -865,6 +866,7 @@ By including community work in your open-source developers' performance review c
 If they receive the message it's important to work with outside developers, but they are evaluated only on how much code they've written, then it is likely that they will minimize their community participation.
 Without strong outside leadership to pick up the slack, the community will then stagnate and the project may become an effort done mostly by your company alone.
 
+[#good-initial-experience]
 ==== Give Folks a Good Initial Experience
 
 It is often difficult for a user to download and install a new piece of software.
