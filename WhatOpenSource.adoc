@@ -83,6 +83,7 @@ These folks were trained in what open-source development was like and the ways t
 
 In large part, this book is about hybrid open source.
 
+[#philosophical-tenets]
 === Philosophical Tenets of Open Source
 
 Understanding the philosophical tenets of open source is simpler once you know a little about its cultural history, which is about as ancient as anything in electronic computing.

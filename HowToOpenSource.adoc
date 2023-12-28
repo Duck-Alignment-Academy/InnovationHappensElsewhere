@@ -1107,6 +1107,7 @@ ____
 Taken together, these three principles will help you to nurture and guide the excitement and energy of your users and developers to grow a successful project with an engaged community.
 The results will be much more than you could have done by yourself.
 
+[#ending-project]
 === Ending an Open-Source Project
 
 Open-source projects have a natural life cycle.
