@@ -140,6 +140,7 @@ These discussions include announcements, bug reporting, problems and how to solv
 Your internal developers should also be participating there and not just using internal mailing lists.
 Note: For brevity's sake, in the following discussion, when we talk about using a public mailing list we also include using a public newsgroup or a web-based discussion forum.
 
+[#let-everyone-know]
 ===== Let Everyone Know What is Happening
 
 It is vital that community members be involved in discussions with your internal developers.
@@ -189,6 +190,7 @@ If someone attacks your company's actions, it is much better to wait a bit and s
 This will carry more weight than if the same message came from an employee of your company.
 Of course, if the original message points out an actual mistake that you have made, the sooner you admit that it is a mistake and explain how you plan to correct it, the better.
 
+[#types-and-number-of-mailing-lists]
 ===== Types and Number of Mailing Lists/Newsgroups
 
 Different mailing lists or newsgroups can be used for different purposes.

@@ -344,147 +344,380 @@ As your project grows in size, your project's organization will also need to cha
 
 ==== PROVIDE FOR THE DIFFERING NEEDS OF YOUR COMMUNITY MEMBERS
 
-Everyone in your community is unique. Their reasons for participating, the length of their involvement, how much they contribute, and how much they know all vary from person to person. In her book Community Building on the Web , Amy Jo Kim describes a five-stage membership life cycle that runs from visitor to novice to regular to leader to elder. Most people will not progress through all five stages--in fact you should expect the number of visitors to be several orders of magnitude larger than all the other stages combined. To attract and retain people, you need to understand their differing needs and how to encourage people to become more involved.
-Guide Your Visitors
+Everyone in your community is unique.
+Their reasons for participating, the length of their involvement, how much they contribute, and how much they know all vary from person to person.
+In her book _Community Building on the Web_, Amy Jo Kim describes a five-stage membership life cycle that runs from visitor to novice to regular to leader to elder.
+Most people will not progress through all five stages — in fact you should expect the number of visitors to be several orders of magnitude larger than all the other stages combined.
+To attract and retain people, you need to understand their differing needs and how to encourage people to become more involved.
 
-A visitor is someone who simply wants to see what your community is about. Like a tourist, a visitor wants to easily find the interesting places and painlessly get an idea of what's up with the project.
+===== Guide Your Visitors
 
-Are visitors to your project's website able to easily find answers to their questions or do they become lost as they try to locate information? A good website has a section devoted to newcomers. This Visitors Center should contain the following:
+A visitor is someone who simply wants to see what your community is about.
+Like a tourist, a visitor wants to easily find the interesting places and painlessly get an idea of what's up with the project.
 
-    A project mission statement and road map.
-    Answers to frequently asked questions.
-    Instructions on how to download the current release.
-    Tutorials and getting-started documents.
-    Press releases and articles about the project.
-    A site map and a way to search the website.
-    Policies and guidelines for participating in the project.
+Are visitors to your project's website able to easily find answers to their questions or do they become lost as they try to locate information?
+A good website has a section devoted to newcomers.
+This Visitors Center should contain the following:
 
-Most of the larger open-source projects make it easy for visitors to find this type of information. Two good examples are Mozilla1 and GNOME.2
+* A project mission statement and road map.
+* Answers to frequently asked questions.
+* Instructions on how to download the current release.
+* Tutorials and getting-started documents.
+* Press releases and articles about the project.
+* A site map and a way to search the website.
+* Policies and guidelines for participating in the project.
 
-You may want to have a separate area for each different category of visitors. This might be as minimal as having additional sections in your FAQs, or you might have multiple web pages with specialized documents for each group. For example the OpenOffice project3 has localized versions of much of its website for speakers of different languages (for example, Czech, French, German, and Japanese), whereas the GNOME project provides separate web pages for users and for application developers.
+Most of the larger open-source projects make it easy for visitors to find this type of information.
+Two good examples are Mozillafootnote:[https://www.mozilla.org] and GNOME.footnote:[https://www.gnome.org]
 
-Another question you must address is how much visitors can participate. Can they browse mail archives, subscribe to mailing lists, post to mailing lists, add comments to discussion forums, or edit wiki pages? Generally, you want to maximize how much information visitors can see on your website and minimize barriers to entry. However, you also need to worry about possible disruptions of conversations; furthermore your community members may not want to discuss controversial topics in public.
+You may want to have a separate area for each different category of visitors.
+This might be as minimal as having additional sections in your FAQs, or you might have multiple web pages with specialized documents for each group.
+For example the OpenOffice projectfootnote:[https://www.openoffice.org] has localized versions of much of its website for speakers of different languages (for example, Czech, French, German, and Japanese), whereas the GNOME project provides separate web pages for users and for application developers.
 
-Although many visitors will be new to your project and may need help navigating your website, others will be quite knowledgeable about your project--they may visit your project's website frequently to see what's new. Do not assume that all the people who care about your project get their news via the mailing lists; feature news about your project on the home page and update it frequently.
+Another question you must address is how much visitors can participate.
+Can they browse mail archives, subscribe to mailing lists, post to mailing lists, add comments to discussion forums, or edit wiki pages?
+Generally, you want to maximize how much information visitors can see on your website and minimize barriers to entry.
+However, you also need to worry about possible disruptions of conversations;
+furthermore your community members may not want to discuss controversial topics in public.
 
-The definition of visitor is someone without a community identity, so any participation visitors do is done anonymously. It is not necessary to encourage your visitors to join. However, you should make clear what the benefits and requirements of membership are. The main reason people join an online community is to do something that requires membership. For an open-source project, that something is typically being able to ask questions in order to get help in using the project's code and participating in the discussion of the project's future.
-Welcome Your Novices
+Although many visitors will be new to your project and may need help navigating your website, others will be quite knowledgeable about your project — they may visit your project's website frequently to see what's new.
+Do not assume that all the people who care about your project get their news via the mailing lists;
+feature news about your project on the home page and update it frequently.
 
-Novices are people who have taken the step to join your project. They may have registered on your project's website or maybe just subscribed to one of your project's mailing lists. They are interested in your project, but need to learn the ropes about how your community functions. They need to learn what they can do as members and how to behave.
+The definition of visitor is someone without a community identity, so any participation visitors do is done anonymously.
+It is not necessary to encourage your visitors to join.
+However, you should make clear what the benefits and requirements of membership are.
+The main reason people join an online community is to do something that requires membership.
+For an open-source project, that something is typically being able to ask questions in order to get help in using the project's code and participating in the discussion of the project's future.
 
-When they join, you need to welcome them into your community. A simple way to do this is by sending a welcoming email message. This note should be from a real person, even if it is sent automatically from the mailing list server. Have either the project's founder or your community manager write this welcoming message. It should confirm the novice's membership and explain how the community works. You shouldn't overload new members with information but rather provide links to what they are likely to need to know as they get started working on your project.
+===== Welcome Your Novices
 
-On your website, you should help novices learn who's who in your community. Include a page listing the major contributors, community leaders, and module owners. If you can include pictures of folks, all the better. Introduce novices to your regulars and leaders at community meetings.
+Novices are people who have taken the step to join your project.
+They may have registered on your project's website or maybe just subscribed to one of your project's mailing lists.
+They are interested in your project, but need to learn the ropes about how your community functions.
+They need to learn what they can do as members and how to behave.
 
-Depending on your project, you may want to have a special mailing list, discussion forum, or even a subproject for newcomers to get their initial questions answered. This can keep the same basic questions from constantly being posted to your main mailing lists. It lets novices help each other, which sets a good tone for later. This is another reason to have good FAQ lists and to regularly link to them in the major mailing lists.
+When they join, you need to welcome them into your community.
+A simple way to do this is by sending a welcoming email message. This note should be from a real person, even if it is sent automatically from the mailing list server. Have either the project's founder or your community manager write this welcoming message. It should confirm the novice's membership and explain how the community works. You shouldn't overload new members with information but rather provide links to what they are likely to need to know as they get started working on your project.
 
-Be sure to encourage a friendly attitude that is tolerant of inappropriate postings by novices on project mailing lists. Gently let the offenders know how your project does things, without personally attacking them. Redirect inappropriate messages to the correct mailing list. Discourage flaming. This attitude encourages novices to participate and is good for your community of regulars too.
-Reward Your Regulars
+On your website, you should help novices learn who's who in your community.
+Include a page listing the major contributors, community leaders, and module owners. If you can include pictures of folks, all the better. Introduce novices to your regulars and leaders at community meetings.
 
-Regulars are the lifeblood of your project; they are the folks who do the work to make your project a success. They answer questions on the mailing lists, report bugs and bug fixes, contribute code and new ideas, tell others about your project, and do all the other work necessary for your project to move forward. Do everything you can to encourage your regulars to participate and to retain their interest in your project.
+Depending on your project, you may want to have a special mailing list, discussion forum, or even a subproject for newcomers to get their initial questions answered.
+This can keep the same basic questions from constantly being posted to your main mailing lists.
+It lets novices help each other, which sets a good tone for later.
+This is another reason to have good FAQ lists and to regularly link to them in the major mailing lists.
 
-Because many open-source projects are meritocracies, be sure to recognize people doing good work. Be sure to add them to the project's list of contributors. Reward them by granting them CVS commit privileges. Invite them to be part of the core group. Encourage them to take responsibility for part of the design or a module of code.
+Be sure to encourage a friendly attitude that is tolerant of inappropriate postings by novices on project mailing lists.
+Gently let the offenders know how your project does things, without personally attacking them.
+Redirect inappropriate messages to the correct mailing list.
+Discourage flaming.
+This attitude encourages novices to participate and is good for your community of regulars too.
 
-A good way to show appreciation for the work your regulars do is to have a spotlight feature on your website's home page or in your project's newsletter that highlights individuals and their work. You can also encourage them to give a presentation at a community meeting. Not only does it reward them directly, but it also can educate your community about new functionality and encourage other regulars and novices by giving them an example of what your community values.
+===== Reward Your Regulars
 
-Another way to show that you value your regulars is to use resources from your company to further refine one of their contributions to help bring it up to project-quality standards, as described earlier. Even having one of your graphic artists create a cool logo for a subproject may be appreciated. Just be sure they feel you are working with them and not trying to take over from them.
+Regulars are the lifeblood of your project;
+they are the folks who do the work to make your project a success.
+They answer questions on the mailing lists, report bugs and bug fixes, contribute code and new ideas, tell others about your project, and do all the other work necessary for your project to move forward.
+Do everything you can to encourage your regulars to participate and to retain their interest in your project.
 
-The ultimate way to retain your best regulars is to hire them! It is always hard to find top talent and especially to know how they will function in your company's culture. With open source, you have a way to try out people and determine whether they fit in with your current team. Even if they do not live near any of your company's offices you already know that they can work productively from wherever they do live (that is, remotely). For example, Sun Labs is supporting a small open-source project called Electric, a computer-aided design system for electrical circuits. When one volunteer really distinguished himself by his contributions, Sun hired him--even though he lives in Moscow and the Sun Labs team is in California.
-Empower Your Leaders
+Because many open-source projects are meritocracies, be sure to recognize people doing good work.
+Be sure to add them to the project's list of contributors.
+Reward them by granting them CVS commit privileges.
+Invite them to be part of the core group.
+Encourage them to take responsibility for part of the design or a module of code.
 
-Your leaders are the people who keep your community running. Some will be outside volunteers and some will be your employees--a successful project will have a healthy mix of both. Some will have formal leadership roles, such as module owner, but many roles will be more informal. For an open-source project, leadership is all about having a vision and working with others to make it happen; it's not about being in charge, making decisions, or giving orders.
+A good way to show appreciation for the work your regulars do is to have a spotlight feature on your website's home page or in your project's newsletter that highlights individuals and their work.
+You can also encourage them to give a presentation at a community meeting.
+Not only does it reward them directly, but it also can educate your community about new functionality and encourage other regulars and novices by giving them an example of what your community values.
+
+Another way to show that you value your regulars is to use resources from your company to further refine one of their contributions to help bring it up to project-quality standards, as described earlier.
+Even having one of your graphic artists create a cool logo for a subproject may be appreciated.
+Just be sure they feel you are working with them and not trying to take over from them.
+
+The ultimate way to retain your best regulars is to hire them!
+It is always hard to find top talent and especially to know how they will function in your company's culture.
+With open source, you have a way to try out people and determine whether they fit in with your current team.
+Even if they do not live near any of your company's offices you already know that they can work productively from wherever they do live (that is, remotely).
+For example, Sun Labs is supporting a small open-source project called Electric, a computer-aided design system for electrical circuits.
+When one volunteer really distinguished himself by his contributions, Sun hired him — even though he lives in Moscow and the Sun Labs team is in California.
+
+===== Empower Your Leaders
+
+Your leaders are the people who keep your community running.
+Some will be outside volunteers and some will be your employees — a successful project will have a healthy mix of both.
+Some will have formal leadership roles, such as module owner, but many roles will be more informal.
+For an open-source project, leadership is all about having a vision and working with others to make it happen;
+it's not about being in charge, making decisions, or giving orders.
 
 The leaders in your community will naturally take on many different roles:
 
-    Welcoming newcomers to the project and answering their questions.
-    Answering technical and procedural questions on your project mailing lists.
-    Guiding discussions to help them reach a conclusion.
-    Selecting high-quality content to highlight on your website or in your newsletter.
-    Coordinating activities such as releases, community meetings, or trade-show demos.
-    Providing quality checks on contributed code.
-    Policing community discussions to keep them civil, and redirecting messages to the correct mailing list.
-    Resolving conflicts and helping the community to make decisions.
-    Solving complex technical problems.
-    Creating compelling visions and directions for the project.
+* Welcoming newcomers to the project and answering their questions.
+* Answering technical and procedural questions on your project mailing lists.
+* Guiding discussions to help them reach a conclusion.
+* Selecting high-quality content to highlight on your website or in your newsletter.
+* Coordinating activities such as releases, community meetings, or trade-show demos.
+* Providing quality checks on contributed code.
+* Policing community discussions to keep them civil, and redirecting messages to the correct mailing list.
+* Resolving conflicts and helping the community to make decisions.
+* Solving complex technical problems.
+* Creating compelling visions and directions for the project.
 
-You need to watch your regulars to see which are starting to assume any of these roles and encourage them to do so. Try to recruit outside volunteers to oversee visible project-related activities such as module owner, release manager, or newsletter editor. Establish as soon as possible that community members do important things.
+You need to watch your regulars to see which are starting to assume any of these roles and encourage them to do so.
+Try to recruit outside volunteers to oversee visible project-related activities such as module owner, release manager, or newsletter editor.
+Establish as soon as possible that community members do important things.
 
-Be sure to provide support for new leaders. It may be as simple as your community manager trading some tips via email on guiding discussions or assigning an experienced module owner to mentor a new one. You may want to give all new module owners training on the various tools your project uses. But recognize that volunteers have limited time, so don't push them to act like full-time employees.
+Be sure to provide support for new leaders.
+It may be as simple as your community manager trading some tips via email on guiding discussions or assigning an experienced module owner to mentor a new one.
+You may want to give all new module owners training on the various tools your project uses.
+But recognize that volunteers have limited time, so don't push them to act like full-time employees.
 
-You can reward your leaders and make them more visible by giving them a special place to express their ideas and opinions. This could be a column in the community newsletter or a series of articles on your website--you could encourage them to write weblogs featured on the project's website. If a leader is not interested in writing, then post an interview instead.
+You can reward your leaders and make them more visible by giving them a special place to express their ideas and opinions.
+This could be a column in the community newsletter or a series of articles on your website — you could encourage them to write weblogs featured on the project's website.
+If a leader is not interested in writing, then post an interview instead.
 
-When you have project-related discussions and meetings inside your company, try to invite outside volunteer leaders to participate. Be sure to keep them informed on any decisions you make. All of your project's leaders need to be kept in the loop. You do not want to create an us-versus-them attitude.
-Honor Your Elders
+When you have project-related discussions and meetings inside your company, try to invite outside volunteer leaders to participate.
+Be sure to keep them informed on any decisions you make.
+All of your project's leaders need to be kept in the loop. You do not want to create an us-versus-them attitude.
 
-Elders are respected long-time regulars and leaders who are your community's mentors, teachers, and advisors. They provide role models for newcomers and regulars on how to behave properly. They may have stepped down from more active roles such as a leader or contributor, but your community can still benefit from their sharing their knowledge.
+===== Honor Your Elders
 
-Some projects take no notice of when major contributors move on; at most they may add their names to a list of emeritus contributors and also remove them from the list of active developers. The Apache Software Foundation's projects have a rule that committers who have been inactive for 6 months or more may lose their status as committers. Although people can regain their committer status by just requesting it on the project's developer mailing list, the fact that they lost it indicates a certain indifference toward formerly valued community members.
+Elders are respected long-time regulars and leaders who are your community's mentors, teachers, and advisors.
+They provide role models for newcomers and regulars on how to behave properly.
+They may have stepped down from more active roles such as a leader or contributor, but your community can still benefit from their sharing their knowledge.
 
-Try to identify potential elders and encourage them to continue to participate in some way. They may not have time to write code, but perhaps they would like to follow various design discussions--they certainly have the knowledge to do so, including knowledge of your project's history and why previous decisions were made the way they were. If any of your senior developers move on to another project in your company, see whether you can get their new managers to approve their continuing, though perhaps minimal, involvement on your project mailing lists.
+Some projects take no notice of when major contributors move on;
+at most they may add their names to a list of emeritus contributors and also remove them from the list of active developers.
+The Apache Software Foundation's projects have a rule that committers who have been inactive for 6 months or more may lose their status as committers.
+Although people can regain their committer status by just requesting it on the project's developer mailing list, the fact that they lost it indicates a certain indifference toward formerly valued community members.
 
-One way to show that you value your elders is to have a special mailing list for them where the community can ask their opinions on important matters that come up. You can also try to solicit their advice on the regular project mailing lists. Include them in activities at your community meetings and interview them on your website or in your newsletter.
-Communication Creates Community
+Try to identify potential elders and encourage them to continue to participate in some way.
+They may not have time to write code, but perhaps they would like to follow various design discussions — they certainly have the knowledge to do so, including knowledge of your project's history and why previous decisions were made the way they were.
+If any of your senior developers move on to another project in your company, see whether you can get their new managers to approve their continuing, though perhaps minimal, involvement on your project mailing lists.
 
-Everyone involved with your project--users, designers, developers, and evangelists--should know what is happening with it. Everyone needs to know what's new and be able to participate in discussions about various project issues, plans, and designs. As is mentioned in the section Let Everyone Know What is Happening in Chapter 6, it is crucial that your internal developers use public mailing lists for their discussions so that the entire community can participate.
+One way to show that you value your elders is to have a special mailing list for them where the community can ask their opinions on important matters that come up.
+You can also try to solicit their advice on the regular project mailing lists.
+Include them in activities at your community meetings and interview them on your website or in your newsletter.
 
-Your project should start off with as few mailing lists as possible in order to focus things (see the section Types and Number of Mailing Lists/Newsgroups in Chapter 6). This might be one moderated list for infrequent project announcements, one unmoderated list for all user-related questions and comments (including design suggestions), and one unmoderated list for all general developer-related messages (mostly implementation issues).
+==== Communication Creates Community
 
-Your team needs to set a friendly tone on these lists to encourage others to participate (see the section Posting Etiquette in Chapter 6). You should encourage people from outside of your company to respond to questions from other users/developers. We recommend the Jini team's policy of waiting 2 days before answering a general user question. Questions that can be answered by only the core team should be answered immediately. This should result in a mailing list where users naturally answer most of the posted questions, and the core developers answer only the more difficult, technical ones.
+Everyone involved with your project — users, designers, developers, and evangelists — should know what is happening with it.
+Everyone needs to know what's new and be able to participate in discussions about various project issues, plans, and designs.
+As is mentioned in the section <<let-everyone-know>> in Chapter 6, it is crucial that your internal developers use public mailing lists for their discussions so that the entire community can participate.
 
-Mailing lists are great for discussions, but not everyone has the time to follow them. To keep people informed on current issues, you should start a project newsletter. This newsletter should be published on a regular schedule, ranging from weekly to monthly depending on how active your project is. The contents of the newsletter should be featured on your project's website. An example newsletter topic might be a "contributor spotlight" that focuses on some individual who is doing interesting work on the project. The NetBeans project publishes both a brief weekly newsletter, consisting mostly of links to interesting discussions on its mailing lists, and a monthly newsletter with full articles covering such things as project-related news, feature stories on developers and projects, and pointers to press articles about NetBeans.
-Community Meetings
+Your project should start off with as few mailing lists as possible in order to focus things (see the section <<types-and-number-of-mailing-lists>> in Chapter 6).
+This might be one moderated list for infrequent project announcements, one unmoderated list for all user-related questions and comments (including design suggestions), and one unmoderated list for all general developer-related messages (mostly implementation issues).
 
-To create a real community for your project requires that people get to know one another. Some of this can happen over mailing lists, but far better are face-to-face meetings. Have a community meeting as soon as possible and at regular intervals afterward. For smaller projects, you might need to hold your community meeting as part of some larger event, for example as a birds-of-a-feather (BoF) session at conferences such as JavaOne or LinuxWorld. Try to hold meetings in different locations so more of your community can attend.
+Your team needs to set a friendly tone on these lists to encourage others to participate (see the section <<posting-etiquette>> in Chapter 6).
+You should encourage people from outside of your company to respond to questions from other users/developers.
+We recommend the Jini team's policy of waiting 2 days before answering a general user question.
+Questions that can be answered by only the core team should be answered immediately.
+This should result in a mailing list where users naturally answer most of the posted questions, and the core developers answer only the more difficult, technical ones.
 
-A community meeting is a great way to raise the overall level of excitement about your project. Avoid dull status-reporting sessions. Plan for more interactive formats to take advantage of people being together. Users and developers usually have lots of questions they would like to ask the core developers, so be sure they get a chance. Introduce major contributors so people can associate faces with names. Your developers should also become known as individuals. Reserve time for people to schedule BoFs during the meeting. Include time for people to informally chat and network.
+Mailing lists are great for discussions, but not everyone has the time to follow them.
+To keep people informed on current issues, you should start a project newsletter.
+This newsletter should be published on a regular schedule, ranging from weekly to monthly depending on how active your project is.
+The contents of the newsletter should be featured on your project's website.
+An example newsletter topic might be a "contributor spotlight" that focuses on some individual who is doing interesting work on the project.
+The NetBeans project publishes both a brief weekly newsletter, consisting mostly of links to interesting discussions on its mailing lists, and a monthly newsletter with full articles covering such things as project-related news, feature stories on developers and projects, and pointers to press articles about NetBeans.
 
-Don't be constrained by regular meeting formats. The Jini project has held several open celebrations that they call Jini Fest! where they show off cool aspects of Jini technology and provide an occasion for Jini developers to socialize and network. These have been more free-form events held during the annual JavaOne conference where groups are invited to show off their work with Jini--both companies using Jini and various Jini Community projects are invited. Each group hosts a table in a big room. Add food and drink, plus several hundred Jini enthusiasts, and you have an exciting event. They even filmed part of the event as part of a webcast about Jini technology featured at JavaOne.
+===== Community Meetings
 
-Community meetings are also a great place to hold working group meetings. Getting the major players into a room can speed up decision-making on open issues. (Be sure to report back via email to the full community on any decisions made at the meeting.)
+To create a real community for your project requires that people get to know one another.
+Some of this can happen over mailing lists, but far better are face-to-face meetings.
+Have a community meeting as soon as possible and at regular intervals afterward. For smaller projects, you might need to hold your community meeting as part of some larger event, for example as a birds-of-a-feather (BoF) session at conferences such as JavaOne or LinuxWorld.
+Try to hold meetings in different locations so more of your community can attend.
 
-Other meeting options include phone conferences and online chat sessions. You might also consider using a webcast to present status updates or other information to your worldwide community. The Jini project has done several webcasts. Although webcasts are not as interactive as a meeting, they are good at helping your community to get to know the people presenting material. Putting a human face on your main developers and contributors helps to build community. An open-source project has by definition a distributed work group, and you need to explore ways to facilitate communications among the members.
-Events
+A community meeting is a great way to raise the overall level of excitement about your project.
+Avoid dull status-reporting sessions. Plan for more interactive formats to take advantage of people being together.
+Users and developers usually have lots of questions they would like to ask the core developers, so be sure they get a chance.
+Introduce major contributors so people can associate faces with names.
+Your developers should also become known as individuals. Reserve time for people to schedule BoFs during the meeting.
+Include time for people to informally chat and network.
 
-Sometimes you can create a strong sense of community and attract others to your project by sponsoring events, such as a reception at a larger conference. In many cases, conference organizers are receptive to the idea of a special event or sponsorship at their conference to add texture at low cost to them. Conference organizers often contract with a hotel or conference center to lease a fixed set of the facilities for the entire duration of the conference, and therefore these facilities might be available at low or no cost to you.
+Don't be constrained by regular meeting formats.
+The Jini project has held several open celebrations that they call Jini Fest! where they show off cool aspects of Jini technology and provide an occasion for Jini developers to socialize and network.
+These have been more free-form events held during the annual JavaOne conference where groups are invited to show off their work with Jini — both companies using Jini and various Jini Community projects are invited.
+Each group hosts a table in a big room. Add food and drink, plus several hundred Jini enthusiasts, and you have an exciting event.
+They even filmed part of the event as part of a webcast about Jini technology featured at JavaOne.
 
-A good example is IBM and Eclipse. At the ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) in both 2002 and 2003, IBM sponsored Eclipse receptions. In 2003, the reception featured a few short speeches but lots of food and demonstrations. There were no other conference events that evening, so attendance was high. The event was held in one of the main conference halls, which cost IBM nothing, and the entire affair cost less than $20,000 for the food and drinks. It was at this conference and reception that Erich Gamma and Kent Beck's book on contributing to Eclipse went public.
-New Forms of Communication: Wikis and Weblogs
+Community meetings are also a great place to hold working group meetings.
+Getting the major players into a room can speed up decision-making on open issues.
+(Be sure to report back via email to the full community on any decisions made at the meeting.)
 
-The tools available for online communication continue to evolve. As they do, new opportunities arise for people in open-source projects to interact and collaborate with each other. Two particularly promising new technologies are the wiki and the weblog.
-The WikiWikiWeb
+Other meeting options include phone conferences and online chat sessions.
+You might also consider using a webcast to present status updates or other information to your worldwide community.
+The Jini project has done several webcasts.
+Although webcasts are not as interactive as a meeting, they are good at helping your community to get to know the people presenting material.
+Putting a human face on your main developers and contributors helps to build community.
+An open-source project has by definition a distributed work group, and you need to explore ways to facilitate communications among the members.
 
-A wiki is a website that allows people to edit web pages collaboratively. A wiki makes it easy for anyone to view, edit, and create web pages using just a web browser. A very simple markup scheme allows basic text formatting. In the original wiki, a link to another wiki page was automatically created by writing several words with their first letters capitalized and with no spaces between them, for example, OpenSource or CollaborativeDevelopment. If there was not already a page with that name, a new one was created.
+===== Events
 
-A wiki is a great way for a community to create a group document. As members browse the existing pages, any time they see mistakes or want to make additions all they need to do is press the Edit this page button displayed at the bottom of the page. This loads the current text of the page into a form in which it can be edited. The Save page button in the form saves a new version of the page, which is immediately made available for all to see.
+Sometimes you can create a strong sense of community and attract others to your project by sponsoring events, such as a reception at a larger conference.
+In many cases, conference organizers are receptive to the idea of a special event or sponsorship at their conference to add texture at low cost to them.
+Conference organizers often contract with a hotel or conference center to lease a fixed set of the facilities for the entire duration of the conference, and therefore these facilities might be available at low or no cost to you.
 
-The first wiki website4 was established by Ward Cunningham in 1995. Ward originally called it the WikiWikiWeb from the word wiki wiki , which means "quick" in the Hawaiian language. For another example, check out the Wikipedia,5 where, in only 3 years, the online community has created an open-content encyclopedia of almost 300,000 entries (as of July 2004). Open-source projects have recently begun to use wikis. The Apache Software Foundation has a wiki6 used by its various projects, and the GNOME project has set up a wiki7 to provide support.
+A good example is IBM and Eclipse.
+At the ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA) in both 2002 and 2003, IBM sponsored Eclipse receptions.
+In 2003, the reception featured a few short speeches but lots of food and demonstrations.
+There were no other conference events that evening, so attendance was high.
+The event was held in one of the main conference halls, which cost IBM nothing, and the entire affair cost less than $20,000 for the food and drinks.
+It was at this conference and reception that Erich Gamma and Kent Beck's book on contributing to Eclipse went public.
 
-Writing in wiki pages consists of either unsigned, deliberately anonymous text that is intended to be community material which others are encouraged to update and improve (for example, a page on the Apache wiki describing how to do log rotation for the James mail/news server) or a series of signed comments where people hold a form of conversation as they try to reach an understanding of the issues involved (for example, a page discussing which Java IDE to use, also on the Apache wiki). Anyone can both reorganize the conversational threads to clarify the material, possibly moving them to new pages, and revise the community material based on the comments made. Over time more and more community-owned text is created expressing the community consensus and the concluded discussions may be removed. Many wikis provide simple version-control mechanisms so that no text is lost, and archiving important versions of a wiki page can make looking at history easy.
+==== New Forms of Communication: Wikis and Weblogs
 
-Most wikis have a special RecentChanges page that displays an automatically generated index of all the wiki pages that have been changed recently. Many people check the RecentChanges page frequently to see what is new on the wiki.
+The tools available for online communication continue to evolve.
+As they do, new opportunities arise for people in open-source projects to interact and collaborate with each other.
+Two particularly promising new technologies are the wiki and the weblog.
 
-Many people's immediate reaction when they first hear about wiki is that it cannot possibly work. People worry that someone will come along and delete what is there or write random garbage all over pages. This indeed can, and does occasionally, happen, but as soon as the wiki's community members notice the problem, one of them erases the graffiti and restores the page's original contents from the previous archived version. After continually having their "work" removed, the offending individuals usually quickly give up and go elsewhere.
+===== The WikiWikiWeb
 
-A more common problem is that no community consensus emerges, possibly because the community is split into opposing viewpoints on some issue. Then it is important that the community try to express each of the viewpoints rather than resolving the issue to a single "correct" one. This requires a real sense of community and a respect for the beliefs of other community members. The Wikipedia calls this writing with a neutral point of view and has a good description of how to do this.8
+A wiki is a website that allows people to edit web pages collaboratively.
+A wiki makes it easy for anyone to view, edit, and create web pages using just a web browser. A very simple markup scheme allows basic text formatting.
+In the original wiki, a link to another wiki page was automatically created by writing several words with their first letters capitalized and with no spaces between them, for example, OpenSource or CollaborativeDevelopment.
+If there was not already a page with that name, a new one was created.
 
-Another reason that discussions sometimes do not resolve is that the community is exploring a new area and just doesn't know enough yet. In this case, the discussions remain visible as a reminder that the issue is still open. As individuals and hence the community learn more, people may eventually add to the discussion and reorganize it.
+A wiki is a great way for a community to create a group document.
+As members browse the existing pages, any time they see mistakes or want to make additions all they need to do is press the _Edit this page_ button displayed at the bottom of the page.
+This loads the current text of the page into a form in which it can be edited.
+The _Save page_ button in the form saves a new version of the page, which is immediately made available for all to see.
 
-The wide-open nature of the wiki and most people's unfamiliarity with wikis can present a barrier. People can be afraid of what will happen to what they write or unsure what type of contributions are acceptable. The tone set by the community will either encourage new folks to join in or discourage them from doing so. Once people contribute and begin to edit wiki pages, they gain a feeling of empowerment and often develop a vested interest in overseeing the wiki as a whole.
+The first wiki websitefootnote:[http://c2.com/cgi/wiki] was established by Ward Cunningham in 1995.
+Ward originally called it the WikiWikiWeb from the word _wiki wiki_, which means "quick" in the Hawaiian language.
+For another example, check out the Wikipedia,footnote:[https://wikipedia.org] where, in only 3 years, the online community has created an open-content encyclopedia of almost 300,000 entries (as of July 2004).
+Open-source projects have recently begun to use wikis.
+The Apache Software Foundation has a wikifootnote:[http://wiki.apache.org/general] used by its various projects, and the GNOME project has set up a wikifootnote:[http://gnomesupport.org/wiki] to provide support.
 
-A wiki is a community effort and each develops its own culture. In general, the sense of working together to build a better understanding seems to encourage people to be more polite than many other Internet activities do--perhaps because on a wiki any flames, spam, and trivia can be easily deleted, while the constructive comments typically expand and grow.
+Writing in wiki pages consists of either unsigned, deliberately anonymous text that is intended to be community material which others are encouraged to update and improve (for example, a page on the Apache wiki describing how to do log rotation for the James mail/news server) or a series of signed comments where people hold a form of conversation as they try to reach an understanding of the issues involved (for example, a page discussing which Java IDE to use, also on the Apache wiki).
+Anyone can both reorganize the conversational threads to clarify the material, possibly moving them to new pages, and revise the community material based on the comments made.
+Over time more and more community-owned text is created expressing the community consensus and the concluded discussions may be removed. 
+Many wikis provide simple version-control mechanisms so that no text is lost, and archiving important versions of a wiki page can make looking at history easy.
+
+Most wikis have a special _RecentChanges_ page that displays an automatically generated index of all the wiki pages that have been changed recently.
+Many people check the _RecentChanges_ page frequently to see what is new on the wiki.
+
+Many people's immediate reaction when they first hear about wiki is that it cannot possibly work.
+People worry that someone will come along and delete what is there or write random garbage all over pages.
+This indeed can, and does occasionally, happen, but as soon as the wiki's community members notice the problem, one of them erases the graffiti and restores the page's original contents from the previous archived version.
+After continually having their "work" removed, the offending individuals usually quickly give up and go elsewhere.
+
+A more common problem is that no community consensus emerges, possibly because the community is split into opposing viewpoints on some issue.
+Then it is important that the community try to express each of the viewpoints rather than resolving the issue to a single "correct" one. 
+This requires a real sense of community and a respect for the beliefs of other community members.
+The Wikipedia calls this writing with a neutral point of view and has a good description of how to do this.footnote:[http://en.wikipedia.org/wiki/Neutral_point_of_view]
+
+Another reason that discussions sometimes do not resolve is that the community is exploring a new area and just doesn't know enough yet. 
+In this case, the discussions remain visible as a reminder that the issue is still open.
+As individuals and hence the community learn more, people may eventually add to the discussion and reorganize it.
+
+The wide-open nature of the wiki and most people's unfamiliarity with wikis can present a barrier.
+People can be afraid of what will happen to what they write or unsure what type of contributions are acceptable.
+The tone set by the community will either encourage new folks to join in or discourage them from doing so.
+Once people contribute and begin to edit wiki pages, they gain a feeling of empowerment and often develop a vested interest in overseeing the wiki as a whole.
+
+A wiki is a community effort and each develops its own culture.
+In general, the sense of working together to build a better understanding seems to encourage people to be more polite than many other Internet activities do — perhaps because on a wiki any flames, spam, and trivia can be easily deleted, while the constructive comments typically expand and grow.
 
 Coming to a common place, sharing a vocabulary, and working together over time on common goals all help to make the people using a wiki into an actual community.
 
-For more information on wikis, see the book The Wiki Way: Collaboration and Sharing on the Internet by Bo Leuf and Ward Cunningham.
-Weblogs or Blogs
+For more information on wikis, see the book _The Wiki Way: Collaboration and Sharing on the Internet_ by Bo Leuf and Ward Cunningham.
 
-A weblog (also known by its contraction, "blog") is an online journal with entries on whatever topic or topics interest the author, usually including links to online articles, news, or other blogs. Blogs enable people without much web experience to create, format, and post diarylike entries with ease. Blogs are a great way for an individual to have a place to express opinions.
+===== Weblogs or Blogs
 
-We have discussed mostly communities built up by collaboration, but the blog focuses on the individual. Helping to create a strong individual identity also helps to build community--community is about getting to know the individual members in the community better over time, something that blogs help to do. They also help to bridge the gaps among multiple communities that the blogger is a member of. Many people who write blogs include a list of links to other blogs that they read. This blogroll helps to define the blogging community that a person identifies with.
+A weblog (also known by its contraction, "blog") is an online journal with entries on whatever topic or topics interest the author, usually including links to online articles, news, or other blogs.
+Blogs enable people without much web experience to create, format, and post diarylike entries with ease.
+Blogs are a great way for an individual to have a place to express opinions.
 
-A good way for an open-source project to make use of blogs is to have a news page that displays the latest blog entries from selected community members or a project group blog. Most blogs provide an RSS ( Rich Site Summary or Really Simple Syndication ) feed that other web pages can subscribe to. Using this RSS feed, a project can feature on its home page headlines for the most recent relevant blog entries.
+We have discussed mostly communities built up by collaboration, but the blog focuses on the individual.
+Helping to create a strong individual identity also helps to build community — community is about getting to know the individual members in the community better over time, something that blogs help to do.
+They also help to bridge the gaps among multiple communities that the blogger is a member of. 
+any people who write blogs include a list of links to other blogs that they read.
+This _blogroll_ helps to define the blogging community that a person identifies with.
 
-Having key people in your project write a blog (called "blogging") is another channel for getting important information to your community; it is also a good way to reach people outside of your community who are interested in your project. Anyone can subscribe to the RSS feeds from your blogs and thus get timely updated news concerning your project.
+A good way for an open-source project to make use of blogs is to have a news page that displays the latest blog entries from selected community members or a project group blog.
+Most blogs provide an RSS (_Rich Site Summary_ or _Really Simple Syndication_) feed that other web pages can subscribe to.
+Using this RSS feed, a project can feature on its home page headlines for the most recent relevant blog entries.
 
-A good book on how to write a blog is The Weblog Handbook: Practical Advice on Creating and Maintaining Your Blog by Rebecca Blood.
+Having key people in your project write a blog (called "blogging") is another channel for getting important information to your community;
+it is also a good way to reach people outside of your community who are interested in your project.
+Anyone can subscribe to the RSS feeds from your blogs and thus get timely updated news concerning your project.
 
+A good book on how to write a blog is _The Weblog Handbook: Practical Advice on Creating and Maintaining Your Blog_ by Rebecca Blood.
+
+=== Community Outreach
+
+Your project does not exist in a vacuum.
+Strengthen your connections with other open-source projects. Do this to be a good citizen and because it will benefit your project.
+If your software engineers establish good reputations with the open-source community it will benefit your company.
+
+Being active in the larger world of open source will help you with your open-source project.
+Your project infrastructure undoubtedly will use many open-source tools such as CVS, Bugzilla, and Perl, so you may want to become involved in the debates about their future development.
+Seeing how other projects are run will give you ideas about what your project should or should not do.
+
+Market your project to other open-source efforts.
+These provide a natural audience for the software you develop and are a source of potential contributors.
+For example, if you create an application that runs on Linux, then you should work with groups creating Linux distributions so that your application will be included — OpenOffice is part of the Linux distributions from RedHat, SuSE, and Mandrake.
+
+==== Establishing Credibility with the Open-Source Crowd
+
+Beyond the day-to-day activities of your project, there are some other things you can do to establish better credibility with the larger open-source community.
+The bigger and more visible your project is, the more important it is for people working on other open-source projects to see you as being part of this larger open-source community.
+
+First, it will help if you are using a license that has been blessed by the more well-known spokespeople for open source, such as Richard Stallman, Tim O'Reilly, Bruce Perens, and Eric Raymond.
+If your project uses an OSI-certified open-source license such as BSD, Mozilla, or the GNU GPL, then these spokespeople will be able to go on record as saying your project is true open source and a Good Thing.
+If your project is using a proprietary or shared source license, they and the press will be sure to point out that your project is not open source.
+This issue arose with Sun's Jini project, which uses the Sun Community Source License (SCSL) — even though Sun was quite clear in stating that it was creating a gated community and not trying to do true open source, the press and some open-source pundits kept saying, "Yes, but it's not open source."
+This deflected attention from the Jini technology and slowed down the growth of the project around it.
+
+Second, you should establish strong, positive connections with other open-source projects.
+If your project uses tools or modules developed by other open-source projects or your project produces tools or modules that other open-source projects could benefit from, then not only should you be involved with these other projects, but you should try to entwine their projects and yours as much as possible.
+An ideal situation is for your project to be part of the planning process — for future features and the timing of releases — for those other projects.
+The OpenOffice project started with the intent to integrate its office productivity suite with the GNOME desktop, so it became involved in the GNOME community, contributing code and bug fixes back to the GNOME project.
+As the collaboration deepened, technologies and components from each project became part of the other, so that OpenOffice can be said to be deeply embedded into GNOME.
+The more your project is seen as not only supporting but deeply integrated with other open-source efforts, the more your project — and thus your company — will be considered a good member of the larger open-source community.
+
+You should also establish dialogs with open-source developers not involved with your project.
+Have your internal developers both read and post to places such as Slashdot.footnote:[https://slashdot.org]
+Encourage them to start individual weblogs.
+The more individuals from your company that people see participating in open-source forums — especially when their email addresses include your company's domain name — the harder it will be for them to see your company as a large faceless corporation.
+It is fine for your company's developers to express whatever views they have, but they should strive for some restraint and avoid too much flaming.
+As mentioned in the section on <<posting-etiquette>> (Chapter 6), they need to remember that even though they are posting as individuals, people will read their notes as being your company's official policy.
+When your company's actions are attacked, they should wait a bit to first give outside people a chance to defend your company — statements from people not employed by your company are more effective than statements from employees.
+Of course, if the criticism is valid, your developers should immediately acknowledge it and fix things.
+
+=== Harvesting Innovation
+
+If you're trying to do innovation based on your open-source project, then you need to do more than just successfully run the project — you need to harvest what we have called triggers.
+Harvesting from your community doesn't involve any sort of thievery or unethical behavior — it means simply finding out what your community members are doing;
+what problems they're having;
+what books, trends, and technologies they are engaged in; what conferences they attend;
+and how they are using your open-source software.
+
+Your community manager can lead the way by being sociable and getting to know the active members of the community.
+Your developers can also get to know community members.
+Without being intrusive, you can easily come to find out what kinds of uses your community members are making of your open-source software.
+Are there problems that seem beyond the scope of the open-source project itself?
+Are there related problems that could be addressed with other products or add-ons?
+Are people using your technology clustering in application areas you didn't anticipate?
+Are they talking about a new technology or reading a new book?
+Are they working on some particular other open-source projects? Are they upgrading their hardware in a pattern?
+
+When you hold your community meetings, try to arrange for community members to talk about how they are using the project's technology.
+Use these opportunities to learn about the people who have come to your technology on their own.
+And learn about what they are doing with it.
+
+Get your developers together periodically to share what's been learned and brainstorm new opportunities.
+Have a variety of people in your company look at the community.
+When you think you have something, it might turn out that some community members your community manager is friendly with are willing to discuss your ideas.
+
+The key is just to keep your eyes open — don't pry and don't do official-looking surveys.
+Simply be aware of what your community is up to, who is in it, and what they share voluntarily about what they are doing and the problems they're having.
+
+=== Welcome the Unexpected
+
+One of the strengths of open source is that contributors always surprise you.
+When someone submits a new module that takes things in a new direction, be willing to devote some resources to making it a bigger success.
+If some people start using your product in ways you didn't expect, check it out and see whether there's a whole new market waiting for you.
+Most of all, listen to what your community tells you it wants and needs.
+You have made an investment of company resources in order to use open source, so be sure to get the greatest possible return on that investment by harvesting the innovation that your community creates.
