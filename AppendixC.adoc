@@ -1,0 +1,16 @@
+[appendix]
+= Contributor Agreements
+
+The link:https://dreamsongs.com/IHE/IHE-108.html[online version] of _Innovation Happens Elsewhere_ includes the full text of several contributor agreements.
+Reproducing them here provides little value for the amount of work it would take to properly format them.
+Instead, links to the referenced documents are included below.
+
+Apache Contributor Agreement: https://dreamsongs.com/IHE/IHE-109.html
+
+Free Software Foundation Copyright Assignment: https://dreamsongs.com/IHE/IHE-110.html
+
+Mozilla Contributor Agreement: https://dreamsongs.com/IHE/IHE-111.html
+
+OpenOffice.org Contributor Agreement: https://dreamsongs.com/IHE/IHE-112.html
+
+Project JXTA Contributor Assignment: https://dreamsongs.com/IHE/IHE-113.html
