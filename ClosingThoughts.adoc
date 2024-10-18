@@ -1,0 +1,171 @@
+
+== Closing Thoughts
+
+Open source is a way of building closer relationships with your customers and better relationships with your developers.
+An open-source project breaks down organizational boundaries both within your company and between your company and the outside world.
+Open source results in software that better meets the needs of its users, both in terms of better fit and higher reliability.
+
+In an article taking a broad look at open source, Brian Behlendorf wrote:
+
+____
+What the open-source community has proven is that individuals — and, by extension, companies — can work together on a much more discrete, iterative level.
+People are starting to understand that having interaction between developers on a daily basis during development is far more valuable than waiting through the typical product-revision cycles.
+It may seem chaotic at times;
+for programmers, balancing the requirements of their employers with that of the other participants may be a constant challenge.
+But it can work.footnote:[http://news.cnet.com/news/0-1276-210-6659302-1.html]
+____
+
+Barn raising is an excellent metaphor for many (but not all) aspects of open source.
+Traditionally, and even today, barn raising is how most Amish barns are built.
+When a couple gets married or when a disaster destroys a barn, the entire community gets together on a particular day or over a weekend to raise a new barn.
+The foundation is poured and other components are made beforehand, but all the heavy lifting is scheduled to be done with the full crew on the special day or weekend.
+All the able-bodied men pitch in.
+The older, experienced men direct the activities, and the boys act as gofers.
+The women and girls prepare and serve food and drink, and they also provide first aid.
+It's an activity that unifies the entire community, and it is done without any thought that it is something special — it is the most ordinary thing in the world.
+
+Barn raising requires thinking in a gift-economy way.
+Each person working on the raising — whether by wielding a hammer or by baking a pie — knows without thinking that the gift being given is part of a cycle of gifts that includes, in the case of the Amish, the gifts given to them by God.
+
+Barn raising captures the fact that collaboration on a grand scale is common and ancient.
+But for open source barn raising is just a metaphor:
+it doesn't capture cleanly the idea of continuous design, nor does it address well the ways that commercial and business advantages can be had by using open source cleverly.
+
+Competition and collaboration contribute to innovation and creativity in two distinct ways.
+Competition works through diversity and selection; collaboration works through refinement and improving.
+
+In a competitive atmosphere, each organization or entity tries to gain an advantage by producing things that are different from the others in ways thought to have advantage.
+The process producing diversity may not be random, but with enough variety, it is likely that there will be artifacts with better designs or better conformance to actual requirements.
+Then it's a matter of selecting the best designs from this variety.
+Sometimes a pure market situation is not ideal for the selection because an artifact that is just a little better than adequate in many dimensions will be selected more often than one that is excellent in just a few.
+
+In a collaborative situation, a competently designed artifact can be perfected through the application of many individual acts of improvement.
+In such a situation, people with talents spanning a variety of areas will apply their expertise to the artifact, and perhaps it will become as good as it can be based on where it started.
+This approach depends on the starting point being relatively good in a number of dimensions.
+Writers' workshops and remodeling efforts work this way.
+
+Open source provides opportunities for both types of innovation and creativity.
+The competitive type derives from interactions and conversations with the communities surrounding the source code, which can provide triggers leading to innovations.
+The collaborative type happens when a piece of software undergoes a long and continuous process of redesign based on a set of slowly dawning insights.
+This method of design depends on the belief that master planning is difficult when it is possible at all — not that the act of master planning is impossible, but that the results of master planning are frequently less than desirable and that revisions and other kinds of maintenance are required to repair the implementation and design flaws.
+
+Resistance to continuous (re)design comes, we believe, from a hidden belief that bugs and other flaws are a matter of right versus wrong or even good versus evil — that a bug in a design represents something wrong with the designer and that the presence of the bug is the result of the machinations of evil.
+The better, more productive attitude is that errors happen because the makers are human, that there are shades of gray when it comes to errors, and that the noble thing to do in the face of bugs is to fix them rather than judge the maker.
+
+The story of Levittown on Long Island is our favorite example of how people acting in their own interests can effect a positive redesign of a community that has suffered from extreme master planning.
+
+The first Levittown ­— once called _Island Trees_ — was a postwar innovation in low-cost housing in which a potato patch on Long Island was turned into the first mass-produced housing tract.
+After the foundations were laid, specialized crews descended on each lot, one after another, so fast that 18 houses were completed in the 8 AM to noon shift — we could say they used an especially brutal and efficient master plan.
+Many lamented the approach.
+Peter Bacon Hales, art historian from the University of Illinois at Chicago, wrote of the criticism:
+
+____
+The accusations against Levittown from the first focused on its relentless homogeneity, the cramped quarters of its interiors, and the raw, unfinished quality of its landscape.footnote:[http://www.uic.edu/pbhales/Levittown]
+____
+
+Architects, artists, and even some computer scientists have used Levittown as an example of how modernism — the belief in reductionism and the ultimate value of the machine — can lead to what some call the deathlike morphology of late-20th- and early-21st-century life, the unimaginably dulling effect of sameness and inhumanity on ordinary lives.
+
+Postwar Americans needed affordable housing near their jobs to raise the first wave of baby-boomers, not unaffordable aesthetics.
+The houses were snapped up while trucks hauling tools and pulling trailers carrying bulldozers drove away toward their next project.
+The architects, designers, builders, and developers did not care to learn from their projects, and the United States experienced an unending string of housing projects since then that imposed a planned living experience on people bent more on living than on planning.
+
+Levittown relied on wood framing, but many other projects cast their designs literally in concrete.
+The Pruitt-Igoe apartments in St. Louis won architectural awards in the mid-1950s for low-cost housing design.
+But the two complexes were simply steel and concrete high-rise warrens in the mold of the Swiss architect Le Corbusier, who said,
+
+____
+a house is a machine to live in.footnote:[quoted in Peter Hall, _Cities of Tomorrow_, p. 205.]
+____
+
+And also:
+
+____
+the design of cities is too important to be left to the citizens.footnote:[Quoted in Peter Hall, Cities of Tomorrow , p. 207.]
+____
+
+Seventeen years after being completed, the Pruitt-Igoe complex was demolished, creating a vacant lot still mostly vacant, signaling the beginning of the postmodern era.
+
+So in 1951, the designers of Levittown watched as families poured in to begin life in the carefully planned and constructed warrens relentlessly devised according to modernist principles of machine love.
+
+Nature and the Levittown community did not care about the master plan:
+The bulldozed landscape began to sprout trees and shrubs, and over a period of years, as economic realities changed, the community developed a sense of innovation and its inhabitants a control of their own destinies.
+Not being trained as architects or builders did not faze them.
+They thought locally and acted locally.
+The community, through small acts of repair, transformed a homogenized and orderly Levittown into a place deserving the name Island Trees.
+Through customization, additions, remodels, landscaping, disorder, the community, acting as a multitude or aggregation of individuals regarded as not individually important — as a mob — made Levittown over.
+
+Peter Bacon Hales wrote the following about the transformation of Levittown:
+
+____
+The raw, new quality of the landscape, too, didn't seem so awful to new renters and (a little later) owners, who knew that the trees and grass would quickly grow, and who understood the Levitt salesman's pitch promising opportunities to personalize the interior and exterior of your Levittown house.
+Life [magazine] ran a contest, seeking the best-decorated Levittown house, and the winner was a rather startling red-themed Mandarin-Revival Sino-Asian extravaganza.
+Over time, Levittown houses changed character, as their occupants rose in status and in economic wealth, and as families expanded and community standards of innovation and growth trickled from the home-improvement seminars at the Community Center and later the High School, out into the Saturday projects and summer vacation plans of Levittown residents.
+Today's heterogeneous Levittown is a testimony to the resilience of the community ...footnote:[http://www.uic.edu/pbhales/Levittown]
+____
+
+Levittown is not much different from many towns:
+The people who live there have inherited its earlier form from people who are gone and whose cares and requirements are perhaps passé.
+The specifications, needs, and criteria for the evolving town are being invented communitywide on-the-fly — and why should it be any different for software, which, unlike towns, doesn't have the benefit of a long and visible history?
+
+In open source, many of the activities are progressive and uncertain; they are formulated as needed and in response to local needs — of the module owners or of committers or others associated with small pieces of the software and sometimes of the users who, through their complaints and suggestions, are hoping to engage in participatory usability.
+
+In an open-source project, community building and software building are intertwined because the changing needs of the software translate into a new set of players or players at different levels of maturity and expertise.
+As the software becomes more mature and valuable, it needs to become more stable and the changes need to be smaller and better planned.
+As people come to rely on the software, its caretakers need to listen more equitably, which sometimes can require being more formal or more process oriented.
+A cavalier governance that is perfect for the start-up phase of a project might not work later on.
+
+Companies are now starting to use open source for more of their work:
+Some companies are adopting open-source software as part of their products, often the commodity parts, whereas others are sponsoring open-source projects to create markets, to make a ubiquity play, to attract developers, and for a variety of other business reasons.
+A company sponsoring an open-source project is not exactly like an all-volunteer effort, and you need to take special care running one.
+But the benefits can be significant if you do it right:
+transparency, continuous (re)design, innovation in the product, innovation by learning from your community, distributed development, better reuse, developer capture, PR, reduced support costs, and on and on.
+
+When you start your first company-sponsored open-source project, you should realize that you will learn and continuously redesign your processes and practices for running them.
+When first starting out, it is a good idea to model your project on one of the established open-source projects, such as Apache or Linux.
+Once you have gotten the proper feel for things, you will be able to evolve how your project is run so as to better meet your specific needs.
+Just as your project will change as it matures, there is also an arc of maturity for all of your company's sponsored open-source projects.
+With the first project, Jini, Sun was just learning to let go of control.
+With Tomcat, NetBeans, and OpenOffice, the basic skills of running an open-source project began to spread within Sun.
+Only then did it became possible to do more experimental projects such as JXTA.
+It takes a while for trust in the open-source approach to spread within an organization.
+But once it does, the scope of possible projects that can be open sourced increases, as does the company's ability to innovate in how those projects are run.
+
+Open source is an evolving methodology with its own arc of maturity.
+As existing open-source projects face new problems, they need to innovate in how they operate.
+The Apache Software Foundation is grappling with how to resolve conflicts over competing approaches.
+The Linux project is trying to increase compatibility among Linux distributions and prevent the fracturing that plagued Unix in the 1980s and 1990s.
+Open-source projects are experimenting with various governance methods, new licenses, and different ways to work together.
+
+We believe that as the focus of programming shifts from stand-alone applications to interacting web services we will see a new way of developing software arise that we call _mob software_.
+Mob software takes the self-organizing and open-ended aspects of open source and goes much, much further with them.
+Imagine all people, not just programmers, being able to modify the software they use.
+With millions of contributors sharing a multitude of improvements, mob software will transform how we create and think about software.footnote:[_Mob Software: The Erotic Life of Code_ available at http://www.dreamsongs.com/Essays.html]
+
+In this book, we've recounted what we've learned over the past 15 years about open source, collaboration, creativity, innovation, and software development as it relates to commons-based collaboration.
+We believe that open source can mature and expand to even more interesting projects and that the practice can be applied to more areas of design and building.
+The ideas of open source are old;
+they merely fell a little out of grace for the last few hundred years as people came to rely more on capitalistic solutions.
+Now they are coming back as we find that writing software gets easier only when there is a sophisticated base of software to support the new work and that it's unlikely that for-profit organizations can provide all of it at an affordable cost.
+
+And even though this book is aimed at companies and the managers and project leaders in them, we also intend this book to be for people who are looking at expanding their skills as developers and software engineers.
+For you, the message of this book is that you can learn about the real process of creating software from open source and that you can see a variety of real code by the great and not-so-great designers and implementors by looking at open-source code.
+Unlike proprietary software efforts, open-source projects produce an open software literature that can be studied and even savored.
+And as time goes on, knowledge of both open-source software systems and how to do open-source development will become a more important skill to have.
+
+Open source is not a new idea — we've seen it throughout history in the form of commons-based building.
+As Paul Freiberger and Michael Swaine recount in _Fire in the Valley: The Making of the Personal Computer_, we can see it even in unexpected places:
+
+____
+In the late 1960s, just outside Seattle, a group of teenagers met after school each day and biked to a local company.
+As it closed for the day and its employees began heading home, the boys were just getting started.
+They thought of themselves as the firm's unofficial night shift, and in fact they routinely worked until long after dark, pounding on the keys of the company's DEC computer and gorging on carry-out pizza and soft drinks.
+The two leaders of the group [Paul Allen and Bill Gates] were considered a little odd by their class-mates.
+They were "computer nuts," completely absorbed in the technology.
+All the boys worked for free ... Computer Center Corporation, which they called "C Cubed," let them come in to find errors in the DEC computer's programming .... [A]s long as C Cubed could show that DEC's program had bugs (errors that caused the programs to malfunction or "crash"), the firm didn't have to pay DEC for using the computer.
+____
+
+Open source is not for everyone, but if you have the right attitude then it can be a major success factor for your project.
+You must be willing to give up control and share decision making with your community.
+Working together you can create something much better than you could by working alone.
+Good luck!
+
