@@ -1,0 +1,108 @@
+[appendix]
+= Resources
+
+=== Further Reading
+
+Blood, Rebecca. (2002). _The Weblog Handbook: Practical Advice on Creating and Maintaining Your Blog_. Cambridge, MA: Perseus Publishing.
+
+_Boston Consulting Group Hacker Survey_. (2002). Available at: http://www.osdn. com/bcg/index.html
+
+Brooks, Frederick P. (1995). _The Mythical Man-Month: Essays on Software Engineering_. Reading, MA: Addison-Wesley.
+
+Chesbrough, Henry. (2003). _Open Innovation: The New Imperative for Creating and Profiting from Technology_. Cambridge, MA: Harvard Business School Press.
+
+DeMarco, Tom, and Timothy Lister. (1999). _Peopleware: Productive Projects and Teams_, 2nd ed. New York: Dorset House.
+
+DiBona, Chris, Sam Ockman, and Mark Stone (eds.). (1999). _Open Sources: Voices from the Open Source Revolution_. Sebastopol, CA: O'Reilly & Associates, Available at: http://www.oreilly.com/catalog/opensources/book/toc.html
+
+Dinkelacker, Jamie, Pankaj K. Garg, Rob Miller, and Dean Nelson. (2001). _Progressive Open Source_. Palo Alto: HP Laboratories. Available at: http://www.hpl.hp.com/techreports/2001/HPL-2001-233.html
+
+_FLOSS — Free/Libre Open Source Software: Survey and Study_, Berlecon Research. (2002). Available at: http://www.infonomics.nl/FLOSS/report
+
+Fogel, Karl. (1999). _Open Source Development with CVS_. Scottsdale, AZ: CoriolisOpen Press.
+
+Gabriel, Richard P. (1990). _Lisp: Good News, Bad News, How to Win Big_. Available at: http://dreamsongs.com/WorseIsBetter.html
+
+Gabriel, Richard P., and Ron Goldman. (2000). _Mob Software: The Erotic Life of Code_. Available at: http://www.dreamsongs.com/Essays.html
+
+Hugo, Richard. (1992). _The Triggering Town: Lectures and Essays on Poetry and Writing_. New York: W. W. Norton.
+
+Kim, Amy Jo. (2000). _Community Building on the Web_. Berkeley, CA: Peachpit Press.
+
+Leuf, Bo, and Ward Cunningham. (2001). _The Wiki Way: Collaboration and Sharing on the Internet_. Boston: Addison-Wesley.
+
+Moody, Glyn. (2001). _Rebel Code: Inside Linux and the Open Source Revolution_. Cambridge, MA: Perseus Publishing.
+
+Raymond, Eric. (1999). _The Cathedral & the Bazaar._ Sebastopol, CA: O'Reilly & Associates. Original paper available at: http://www.catb.org/~esr/writings/cathedral-bazaar/
+
+Tellis, Gerard J., and Peter N. Golder. (2002). _Will & Vision: How Latecomers Grow to Dominate Markets_. New York: McGraw-Hill.
+
+=== Websites of Interest
+
+Agile Manifesto: http://agilemanifesto.org/principles.html
+
+Apache Software Foundation: http://www.apache.org
+
+Apple Darwin: http://developer.apple.com/darwin
+
+Cisco-centric Open Source Community: http://cosi-nms.sourceforge.net
+
+CollabNet: http://www.collab.net
+
+Creative Commons: http://creativecommons.org
+
+Eclipse: http://www.eclipse.org
+
+Fink: http://fink.sourceforge.net
+
+Free Software Foundation: http://www.gnu.org
+
+Free Software Foundation's Savannah: http://savannah.gnu.org
+
+GForge: http://gforge.org
+
+HP open-source projects: http://opensource.hp.com
+
+IBM open-source projects: http://www-136.ibm.com/developerworks/opensource
+
+Intel open-source projects: http://www.intel.com/cd/ids/developer/asmo-na/eng/52779.htm
+
+Java Community Process: http://www.jcp.org
+
+Java.net community: http://www.java.net
+
+Mozilla: http://mozilla.org
+
+Novell open-source projects: http://forge.novell.com
+
+OpenOffice project: http://www.openoffice.org
+
+Open Solaris project: http://www.opensolaris.org
+
+Open Source Initiative: http://www.opensource.org
+
+Oracle open-source projects: http://oss.oracle.com
+
+SGI open-source projects: http://oss.sgi.com
+
+Slashdot: http://slashdot.org
+
+SourceForge: http://sourceforge.net
+
+Sun open-source projects: http://www.sunsource.net
+
+Symbian: http://www.symbian.com/developer/opensource_index.html
+
+Visualization ToolKit (VTK): http://vtk.org
+
+=== Tools
+
+Bonsai (to query about changes to a CVS archive): http://mozilla.org/bonsai.html
+
+Bugzilla bug-tracking tool: http://www.mozilla.org/bugs
+
+CVS: ftp://ftp.gnu.org/gnu/non-gnu/cvs and http://www.nongnu.org/cvs/
+
+Linux Cross-Reference tool, lxr: http://lxr.linux.no
+
+Tinderbox (to show build status of source tree): http://mozilla.org/tinderbox.html
