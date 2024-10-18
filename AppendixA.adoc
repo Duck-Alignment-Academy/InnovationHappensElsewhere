@@ -106,3 +106,40 @@ CVS: ftp://ftp.gnu.org/gnu/non-gnu/cvs and http://www.nongnu.org/cvs/
 Linux Cross-Reference tool, lxr: http://lxr.linux.no
 
 Tinderbox (to show build status of source tree): http://mozilla.org/tinderbox.html
+
+[#licenses]
+=== Licenses
+
+Apache: http://www.apache.org/licenses/LICENSE-2.0
+
+Artistic License: http://www.perl.com/pub/a/language/misc/Artistic.html
+
+BSD: http://www.opensource.org/licenses/bsd-license.html
+
+CDDL: http://www.opensolaris.org/os/licensing/opensolaris_license/
+
+CPL: http://www.ibm.com/developerworks/oss/CPLv1.0.htm
+
+Creative Commons licenses: http://creativecommons.org/license
+
+FDL: http://www.gnu.org/licenses/fdl.html
+
+FreeBSD Documentation License: http://www.freebsd.org/copyright/freebsd.doc-license.html
+
+GPL: http://www.gnu.org/copyleft/gpl.html
+
+LGPL: http://www.gnu.org/copyleft/lesser.html
+
+Microsoft Shared Source: http://www.microsoft.com/resources/sharedsource/default.asp
+
+MPL: http://www.mozilla.org/MPL/MPL-1.1.html
+
+Open Publication License: http://opencontent.org/openpub
+
+PDL: http://www.openoffice.org/licenses/PDL.html
+
+SCSL (Jini version): http://www.sun.com/jini/licensing/licenses.html
+
+SISSL: http://www.openoffice.org/licenses/sissl_license.html
+
+SPL: http://www.netbeans.org/about/legal/spl.html

@@ -1,0 +1,7 @@
+[appendix]
+= Licenses
+
+The link:https://dreamsongs.com/IHE/IHE-90.html[online version] of _Innovation Happens Elsewhere_ includes the full text of all licenses mentioned in the book.
+Reproducing them here provides little value for the amount of work it would take to properly format them.
+Instead, you may find links to licenses in <<licenses,Appendix A>>.
+
