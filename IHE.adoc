@@ -1,9 +1,9 @@
 = Innovation Happens Elsewhere:  Open Source as Business Strategy
 Ron Goldman <ihe@dreamsongs.com>; Richard P. Gabriel
-1.01-0.0001, October 2023: Basic setup
+1.0, October 2024, Converted to asciidoc for publishing as PDF or EPUB
 :doctype: book
 :backend: docbook
-:url-repo: https://github.com/funnelfiasco/InnovationHappensElsewhere
+:url-repo: https://github.com/Duck-Alignment-Academy/InnovationHappensElsewhere
 :TK: This section not yet updated.
 
 == About This Edition
