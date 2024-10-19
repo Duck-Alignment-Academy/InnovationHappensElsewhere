@@ -1,7 +1,7 @@
 [appendix]
 = Contributor Agreements
 
-The link:https://dreamsongs.com/IHE/IHE-108.html[online version] of _Innovation Happens Elsewhere_ includes the full text of several contributor agreements.
+_Ed. note:_ The link:https://dreamsongs.com/IHE/IHE-108.html[online version] of _Innovation Happens Elsewhere_ includes the full text of several contributor agreements.
 Reproducing them here provides little value for the amount of work it would take to properly format them.
 Instead, links to the referenced documents are included below.
 
