@@ -14,8 +14,6 @@ Since this format is not particularly well-suited for me to load on my tablet an
 
 Although the original book is, at the time of publication, almost two decades old, I am not updating the content.
 I have made formatting and style changes where necessary to appease the toolchain, or where it improves the readability.
-I may choose to take that on at a later date.
-More likely, I'll write about what I find relevant (and irrelevant) at https://duckalignment.academy[Duck Alignment Academy (https://duckalignment.academy)].
 
 If you notice a problem, issues reports and pull requests are welcome at {url-repo}.
 
