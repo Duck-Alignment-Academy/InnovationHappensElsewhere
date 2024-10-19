@@ -1,0 +1,76 @@
+[bibliography]
+= Bibliography
+
+Beck, Kent (1999). _Extreme Programming Explained: Embrace Change_. Boston: Addison-Wesley.
+
+Blood, Rebecca (2002). _The Weblog Handbook: Practical Advice on Creating and Maintaining Your Blog_. Cambridge, MA: Perseus Publishing.
+
+_Boston Consulting Group Hacker Survey_ (2002). Available at: http://www.osdn. com/bcg/index.html
+
+Brooks, Frederick P. (1995). _The Mythical Man-Month: Essays on Software Engineering_. Reading, MA: Addison-Wesley.
+
+Chesbrough, Henry (2003). _Open Innovation: The New Imperative for Creating and Profiting from Technology_. Cambridge, MA: Harvard Business School Press.
+
+DeMarco, Tom, and Timothy Lister (1999). _Peopleware: Productive Projects and Teams_, 2nd ed. New York: Dorset House.
+
+DiBona, Chris, Sam Ockman, and Mark Stone (eds.) (1999). _Open Sources: Voices from the Open Source Revolution_. Sebastopol, CA: O'Reilly & Associates, Available at: http://www.oreilly.com/catalog/opensources/book/toc.html
+
+Dinkelacker, Jamie, Pankaj K. Garg, Rob Miller, and Dean Nelson (2001). _Progressive Open Source_. Palo Alto: HP Laboratories. Available at: http://www.hpl.hp.com/techreports/2001/HPL-2001-233.html
+
+Dodds, Leigh (2000). "Codename Spinnaker." Available at: http://www.xml.com/pub/a/2000/07/19/deviant/index.html
+
+Fleury, Marc, and Julia Lindfors (2001). "Enabling Component Architecture with JML." Available at: http://www.onjava.com/pub/a/onjava/2001/02/01/jmx.html
+
+Florida, Richard (2002). _The Rise of the Creative Class_. New York: Basic Books.
+
+_FLOSS — Free/Libre Open Source Software: Survey and Study_, Berlecon Research (2002). Available at: http://www.infonomics.nl/FLOSS/report
+
+Fogel, Karl (1999). _Open Source Development with CVS_. Scottsdale, AZ: CoriolisOpen Press.
+
+Freiberger, Paul, and Swaine Michael (2000). _Fire in the Valley_, 2nd ed. New York: McGraw-Hill.
+
+Gabriel, Richard P. (1990). "Lisp: Good News, Bad News, How to Win Big." Keynote address given at the European Conference on the Practical Applications of Lisp, Cambridge University, Cambridge, England, March 1990. (Reprinted in AI Expert, June 1991, pp. 31-39; excerpted in Simson Garfinkel, Daniel Weise, and Steven Strassman (1994), The Unix-Haters Handbook. San Mateo, CA: IDG Books.) Available at: http://dreamsongs. com/WorseIsBetter.html
+
+Gabriel, Richard P., and Ron Goldman (2000). "Mob Software: The Erotic Life of Code." Invited talk given at the ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications on October 19, 2000, in Minneapolis, Minnesota, USA. Available at: http://www.dreamsongs.com/Essays.html
+
+Gabriel, Richard P., and William N. Joy (1998). "Sun Community Source License Principles." Available at: http://www.sun.com/software/communitysource/principles.html
+
+Gamma, Erich, and Kent Beck (2003). _Contributing to Eclipse: Principles, Patterns, and Plugins_. Boston: Addison-Wesley.
+
+Gibbs, W. Wyatt (1994). "Software's Chronic Crisis." Scientific American 271, 3 (September): p.72-81.
+
+Hall, Peter (2002). _Cities of Tomorrow: An Intellectual History of Urban Planning and Design in the Twentieth Century_. Malden, MA: Blackwell Publishers.
+
+Hugo, Richard (1992). _The Triggering Town: Lectures and Essays on Poetry and Writing_. New York: W. W. Norton.
+
+Kaplan, Robert, and David Norton (2002). _The Strategy-Focused Organization_. Cambridge, MA: Harvard Business School Press.
+
+Kim, Amy Jo (2000). _Community Building on the Web_. Berkeley, CA: Peachpit Press.
+
+Leuf, Bo, and Ward Cunningham (2001). _The Wiki Way: Collaboration and Sharing on the Internet_. Boston: Addison-Wesley.
+
+Moffett, Charles S., Ruth Berson, Barbara Lee Williams, and Fronia E. Wissman (1989). _The New Painting, Impressionism, 1874-1886: An Exhibition Organized by the Fine Arts Museums of San Francisco with the National Gallery of Art, Washington_. Seattle: University of Washington Press.
+
+Moody, Glyn (2001). _Rebel Code: Inside Linux and the Open Source Revolution_. Cambridge, MA: Perseus Publishing.
+
+_Open Source Software Challenge in 2001_. (2001). Stanford University Graduate School of Business Case SM 85, Stanford, CA.
+
+Petzinger, Tom (2000). _The New Pioneers: The Men and Women Who Are Transforming the Workplace and Marketplace_. New York: Simon & Schuster.
+
+Preminger, Alex, T.V.F. Brogan (co-editors) (1993). _New Princeton Encyclopedia of Poetry and Poetics_. Ewing, NJ: Princeton University Press.
+
+Raymond, Eric (1999). _The Cathedral & the Bazaar_. Sebastopol, CA: O'Reilly & Associates. Original paper available at: http://www.catb.org/~esr/writings/cathedral-bazaar/
+
+Rhodes, Richard (1995) _How to Write: Advice and Reflections_. New York: William Morrow & Co.
+
+Shah, Sonali (2003). _Community-Based Innovation & Product Development: Findings from Open Source Software and Consumer Sporting Goods_, Ph.D. diss., Massachusetts Institute of Technology.
+
+Standish Group (1995). _The CHAOS Report (1994)_. Report of the Standish Group. Available at: http://www.standishgroup.com/sample_research/chaos_1994_1.php
+
+Steele, Guy L., Jr. (1984). _Common Lisp: the Language_, 2nd ed. Bedford, MA: Digital Press.
+
+Tellis, Gerard J., and Peter N. Golder (2002). _Will & Vision: How Latecomers Grow to Dominate Markets_. New York: McGraw-Hill.
+
+Yates, JoAnne, and Wanda J. Orlikowski (1993a). "From Memo to Dialogue: Enacting Genres of Communications in Electronic Mail." MIT Sloan Working Paper #3525, Sloan School, MIT, Cambridge, MA.
+
+Yates, JoAnne, and Wanda J. Orlikowski (1993b). "Knee-Jerk Anti-LOOPism and Other E-mail Phenomena: Oral, Written, and Electronic Patterns in Computer-Mediated Communication." MIT Sloan Working Paper #3578-93, Sloan School, MIT, Cambridge, MA. 
