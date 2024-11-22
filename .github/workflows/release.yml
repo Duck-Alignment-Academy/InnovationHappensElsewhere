@@ -22,7 +22,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Install asciidoctor
-        run: sudo apt-get install -y asciidoctor
+        run: sudo apt-get install -y asciidoctor ruby-asciidoctor-pdf
       - name: Build book
         run: make all
       - name: Upload artifacts
