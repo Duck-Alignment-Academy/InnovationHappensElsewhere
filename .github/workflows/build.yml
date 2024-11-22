@@ -25,13 +25,23 @@ jobs:
         run: sudo apt-get install -y asciidoctor ruby-asciidoctor-pdf pandoc
       - name: Build book
         run: make all
-      - name: Upload PDF
+      - name: Upload output
         uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # tag=v4.4.3
         with:
           name: IHE-${{ github.sha }}.pdf
-          path: output/IHE.pdf
-      - name: Upload EPUB
-        uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # tag=v4.4.3
+          path: output/
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build-book
+    steps:
+      - name: Download files
+        uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # tag=v4.1.8
+      - name: Create release
+        uses: softprops/action-gh-release@01570a1f39cb168c169c802c3bceb9e93fb10974 # tag=v2.1.0
+        if: startsWith(github.ref, 'refs/tags/v')
         with:
-          name: IHE-${{ github.sha }}.epub
-          path: output/IHE.epub
+          draft: true
+          files: |
+            IHE.pdf
+            IHE.zip
