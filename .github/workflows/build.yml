@@ -42,8 +42,8 @@ jobs:
     steps:
       - name: Download files
         uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # tag=v4.1.8
-      - name: DEBUG print ref
-        run: echo ${{ github.ref }}
+      - name: Unzip files
+        run: unzip IHE-${{ github.sha }}.pdf
       - name: Create release
         uses: softprops/action-gh-release@01570a1f39cb168c169c802c3bceb9e93fb10974 # tag=v2.1.0
         with:
